@@ -67,7 +67,7 @@ class Pipeline:
 
     def _caption(self, target: date, events: list) -> str:
         highs = sum(1 for e in events if e.importance == 3)
-               return (
+        return (
             f"📊 تقویم اقتصادی فردا\n"
             f"📅 {jalali_long(target)}\n"
             f"⏰ زمان‌ها: ساعت تهران\n\n"
@@ -90,7 +90,7 @@ def run_safe(pipeline: Pipeline, which: str, preview: bool, force: bool = False)
     except (CalendarFetchError, ValidationError, TelegramError, Exception) as exc:
         pipeline.logger.error("Calendar generation failed: %s", exc)
         pipeline.alert(
-            "🚨 Dolfin Traders Calendar Bot\n\n"
+            "🚨 Dolphin Traders Calendar Bot\n\n"
             f"Calendar generation failed.\nDate mode: {which}\nError: {exc}"
         )
         raise
