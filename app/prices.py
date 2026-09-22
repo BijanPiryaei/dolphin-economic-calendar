@@ -8,16 +8,16 @@ import requests
 TEHRAN = ZoneInfo("Asia/Tehran")
 
 SYMBOLS = [
-    ("XAUUSD", "🇺🇸", "طلا", "GC=F", None),
-    ("XAGUSD", "🇺🇸", "نقره", "SI=F", None),
-    ("BTCUSD", "🇺🇸", "بیت‌کوین", "BTC-USD", "BTCUSDT"),
-    ("ETHUSD", "🇺🇸", "اتریوم", "ETH-USD", "ETHUSDT"),
-    ("GBPUSD", "🇬🇧", "پوند / دلار", "GBPUSD=X", None),
-    ("EURUSD", "🇪🇺", "یورو / دلار", "EURUSD=X", None),
-    ("AUDUSD", "🇦🇺", "استرالیا / دلار", "AUDUSD=X", None),
-    ("NZDUSD", "🇳🇿", "نیوزلند / دلار", "NZDUSD=X", None),
-    ("USDJPY", "🇯🇵", "دلار / ین", "USDJPY=X", None),
-    ("USDCAD", "🇨🇦", "دلار / کانادا", "USDCAD=X", None),
+    ("XAUUSD", "🇺🇸", "طلا", None, None, "XAU"),
+    ("XAGUSD", "🇺🇸", "نقره", None, None, "XAG"),
+    ("BTCUSD", "🇺🇸", "بیت‌کوین", "BTC-USD", "BTCUSDT", None),
+    ("ETHUSD", "🇺🇸", "اتریوم", "ETH-USD", "ETHUSDT", None),
+    ("GBPUSD", "🇬🇧", "پوند به دلار", "GBPUSD=X", None, None),
+    ("EURUSD", "🇪🇺", "یورو به دلار", "EURUSD=X", None, None),
+    ("AUDUSD", "🇦🇺", "استرالیا به دلار", "AUDUSD=X", None, None),
+    ("NZDUSD", "🇳🇿", "نیوزلند به دلار", "NZDUSD=X", None, None),
+    ("JPYUSD", "🇯🇵", "ین به دلار", "USDJPY=X", None, None),
+    ("CADUSD", "🇨🇦", "کانادا به دلار", "CADUSD=X", None, None),
 ]
 
 
@@ -30,15 +30,24 @@ def _fmt(value: float, digits: int) -> str:
 
 
 def _digits(symbol: str) -> int:
-    if symbol in {"BTCUSD"}:
+    if symbol == "BTCUSD":
         return 0
     if symbol in {"ETHUSD", "XAUUSD"}:
         return 2
     if symbol == "XAGUSD":
         return 3
-    if symbol == "USDJPY":
-        return 3
+    if symbol == "JPYUSD":
+        return 6
     return 5
+
+
+def _metal(symbol: str) -> float | None:
+    try:
+        r = requests.get(f"https://api.gold-api.com/price/{symbol}", timeout=12)
+        r.raise_for_status()
+        return float(r.json()["price"])
+    except Exception:
+        return None
 
 
 def _yahoo(ticker: str) -> float | None:
@@ -64,17 +73,28 @@ def _binance(symbol: str) -> float | None:
     try:
         r = requests.get(url, params={"symbol": symbol}, timeout=10)
         r.raise_for_status()
-        return float(r.json()["price"])
+        data = r.json()
+        if "price" not in data:
+            return None
+        return float(data["price"])
     except Exception:
         return None
 
 
 def fetch_quotes() -> list[dict]:
     rows = []
-    for key, emoji, name, yahoo, binance in SYMBOLS:
-        price = _binance(binance) if binance else None
-        if price is None:
+    for key, emoji, name, yahoo, binance, metal in SYMBOLS:
+        price = None
+        if metal:
+            price = _metal(metal)
+            if price is None:
+                price = _yahoo("GC=F" if metal == "XAU" else "SI=F")
+        if price is None and binance:
+            price = _binance(binance)
+        if price is None and yahoo:
             price = _yahoo(yahoo)
+        if price and key == "JPYUSD":
+            price = 1.0 / price
         rows.append(
             {
                 "key": key,
@@ -113,9 +133,10 @@ def format_message(rows: list[dict]) -> str:
         [
             "────────────",
             f"🕐 تهران {now}",
-            "منبع طلا، نقره و فارکس: Yahoo Finance",
-            "منبع بیت‌کوین و اتریوم: Binance",
-            "تأخیر دارد · توصیه مالی نیست",
+            "طلا و نقره: قیمت اسپات",
+            "فارکس: Yahoo Finance",
+            "بیت‌کوین و اتریوم: Binance / Yahoo",
+            "با نرخ بروکر یکی نیست · توصیه مالی نیست",
             FOOTER,
         ]
     )
