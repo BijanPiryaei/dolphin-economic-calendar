@@ -80,6 +80,8 @@ class CalendarClient:
             return self._finnhub(target)
         if provider == "mock":
             return self._mock(target)
+        if provider in {"forexfactory", "ff", "free"}:
+            return self._forexfactory(target)
         raise CalendarFetchError(f"unknown provider: {provider}")
 
     def _te(self, target: date) -> list[CalendarEvent]:
@@ -142,7 +144,6 @@ class CalendarClient:
         title_en = str(row.get("event") or "").strip()
         country = str(row.get("country") or "").strip()
         ccy = COUNTRY_CCY.get(country.lower(), country.upper()[:3] if len(country) == 2 else "")
-        # ISO country codes common in Finnhub
         iso = {
             "US": "USD", "EU": "EUR", "GB": "GBP", "UK": "GBP", "JP": "JPY",
             "CA": "CAD", "AU": "AUD", "NZ": "NZD", "CH": "CHF", "CN": "CNY", "DE": "EUR",
@@ -162,6 +163,50 @@ class CalendarClient:
             previous=str(row.get("prev") if row.get("prev") is not None else "-"),
             actual=str(row.get("actual") if row.get("actual") is not None else "-"),
             unit=str(row.get("unit") or ""),
+        )
+
+    def _forexfactory(self, target: date) -> list[CalendarEvent]:
+        headers = {"User-Agent": "DolphinTradersCalendar/1.0 (+https://dolphintraders.ir)"}
+        rows: list[dict] = []
+        for week in ("thisweek", "nextweek"):
+            url = f"https://nfs.faireconomy.media/ff_calendar_{week}.json"
+            try:
+                resp = _retry_get(url, {}, headers=headers, attempts=2)
+                payload = resp.json()
+            except Exception:
+                continue
+            if isinstance(payload, list):
+                rows.extend(payload)
+        if not rows:
+            raise CalendarFetchError("ForexFactory feed unavailable")
+        events: list[CalendarEvent] = []
+        for row in rows:
+            try:
+                ev = self._from_ff(row)
+            except Exception:
+                continue
+            if ev.dt_tehran.date() == target:
+                events.append(ev)
+        return events
+
+    def _from_ff(self, row: dict) -> CalendarEvent:
+        title_en = str(row.get("title") or "").strip()
+        ccy = str(row.get("country") or "").strip().upper()
+        if len(ccy) != 3:
+            ccy = COUNTRY_CCY.get(ccy.lower(), ccy)
+        dt_utc = parse_api_datetime(str(row.get("date") or ""), assume_utc=False)
+        return CalendarEvent(
+            event_id=f"ff-{title_en}-{dt_utc.isoformat()}",
+            title=self.translator.translate(title_en),
+            title_en=title_en,
+            currency=ccy,
+            country=ccy,
+            importance=_imp_fh(row.get("impact")),
+            dt_utc=dt_utc,
+            dt_tehran=to_tehran(dt_utc),
+            forecast=str(row.get("forecast") or "-"),
+            previous=str(row.get("previous") or "-"),
+            actual=str(row.get("actual") or "-"),
         )
 
     def _mock(self, target: date) -> list[CalendarEvent]:
