@@ -8,16 +8,16 @@ import requests
 TEHRAN = ZoneInfo("Asia/Tehran")
 
 SYMBOLS = [
-    ("XAUUSD", "🥇", "طلا", "GC=F", None),
-    ("XAGUSD", "🥈", "نقره", "SI=F", None),
-    ("BTCUSD", "₿", "بیت‌کوین", "BTC-USD", "BTCUSDT"),
-    ("ETHUSD", "Ξ", "اتریوم", "ETH-USD", "ETHUSDT"),
-    ("GBPUSD", "💷", "پوند / دلار", "GBPUSD=X", None),
-    ("EURUSD", "💶", "یورو / دلار", "EURUSD=X", None),
+    ("XAUUSD", "🇺🇸", "طلا", "GC=F", None),
+    ("XAGUSD", "🇺🇸", "نقره", "SI=F", None),
+    ("BTCUSD", "🇺🇸", "بیت‌کوین", "BTC-USD", "BTCUSDT"),
+    ("ETHUSD", "🇺🇸", "اتریوم", "ETH-USD", "ETHUSDT"),
+    ("GBPUSD", "🇬🇧", "پوند / دلار", "GBPUSD=X", None),
+    ("EURUSD", "🇪🇺", "یورو / دلار", "EURUSD=X", None),
     ("AUDUSD", "🇦🇺", "استرالیا / دلار", "AUDUSD=X", None),
-    ("NZDUSD", "🥝", "نیوزلند / دلار", "NZDUSD=X", None),
-    ("USDJPY", "💴", "دلار / ین", "USDJPY=X", None),
-    ("USDCAD", "🍁", "دلار / کانادا", "USDCAD=X", None),
+    ("NZDUSD", "🇳🇿", "نیوزلند / دلار", "NZDUSD=X", None),
+    ("USDJPY", "🇯🇵", "دلار / ین", "USDJPY=X", None),
+    ("USDCAD", "🇨🇦", "دلار / کانادا", "USDCAD=X", None),
 ]
 
 
@@ -87,26 +87,36 @@ def fetch_quotes() -> list[dict]:
     return rows
 
 
+FOOTER = (
+    "🌐 سایت: https://dolphintraders.ir\n"
+    "📅 تقویم اقتصادی: https://t.me/DolphinTraders_ir\n"
+    "💱 نرخ لحظه‌ای: https://t.me/ForexPreice"
+)
+
+
 def format_message(rows: list[dict]) -> str:
     now = datetime.now(TEHRAN).strftime("%H:%M:%S")
     lines = [
         "🐬 <b>Dolphin Traders</b>",
-        "نرخ لحظه‌ای بازار",
-        "━━━━━━━━━━━━",
+        "نرخ تقریبی بازار",
+        "────────────",
     ]
+    blocks = []
     for row in rows:
         if row["price"] is None:
             val = "—"
         else:
             val = _fmt(row["price"], row["digits"])
-        lines.append(f"{row['emoji']} <b>{row['name']}</b>\n<code>{val}</code>")
+        blocks.append(f"{row['emoji']} {row['name']}\n\u2066{val}\u2069")
+    lines.append("\n────────────\n".join(blocks))
     lines.extend(
         [
-            "━━━━━━━━━━━━",
+            "────────────",
             f"🕐 تهران {now}",
-            "منبع عمومی بازار · تأخیر ممکن است",
-            "توصیه مالی نیست",
-            "dolphintraders.ir",
+            "منبع طلا، نقره و فارکس: Yahoo Finance",
+            "منبع بیت‌کوین و اتریوم: Binance",
+            "تأخیر دارد · توصیه مالی نیست",
+            FOOTER,
         ]
     )
-    return "\n".join(lines)
+    return "\n".join(lines)    return "\n".join(lines)
