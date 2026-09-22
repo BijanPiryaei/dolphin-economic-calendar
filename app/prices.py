@@ -119,4 +119,4 @@ def format_message(rows: list[dict]) -> str:
             FOOTER,
         ]
     )
-    return "\n".join(lines)    return "\n".join(lines)
+    return "\n".join(lines)
