@@ -85,39 +85,81 @@ def _draw_page(events, target, settings, regular, bold, logo, path, page, total)
     if total > 1:
         draw.text((margin + 36, header_h + 20), rtl(f"صفحه {page} از {total}"), font=f_small, fill="#8B83A0")
 
-    headers = [("قبلی", 90), ("پیش‌بینی", 200), ("واقعی", 310), ("تأثیر", 430), ("رویداد", 740), ("ارز", 920), ("زمان", 1020)]
+    headers = [("قبلی", 80), ("پیش‌بینی", 175), ("واقعی", 270), ("تأثیر", 365), ("رویداد", 640), ("ارز", 900), ("زمان", 1015)]
     y0 = header_h + 78
     for label, x in headers:
         draw.text((x, y0), rtl(label), font=_font(bold, 15), fill="#6B6280", anchor="mm")
     draw.line([(margin + 16, y0 + 18), (width - margin - 16, y0 + 18)], fill="#E6E0F0", width=1)
 
     f_row = _font(regular, 16)
-    f_ev = _font(regular, 15)
+    f_ev = _font(regular, 14)
     f_badge = _font(bold, 13)
+    flags_dir = settings.root / "assets" / "flags"
     y = y0 + 22
+    event_right = 820
+    event_max_w = 430
     if not events:
         draw.text((width / 2, y + 20), rtl("رویداد فیلترشده‌ای برای این روز نیست"), font=f_row, fill="#6B6280", anchor="mm")
     for i, ev in enumerate(events):
         if i % 2 == 1:
             draw.rectangle([margin + 12, y, width - margin - 12, y + row_h], fill="#F6F3FA")
+        mid = y + row_h / 2
         clock = format_tehran_clock(ev.dt_tehran)
-        draw.text((1020, y + row_h / 2), rtl(clock), font=f_row, fill="#2B2140", anchor="mm")
-        draw.text((920, y + row_h / 2), ev.currency, font=_font(bold, 16), fill="#2B2140", anchor="mm")
-        draw.text((740, y + row_h / 2), rtl(ev.title), font=f_ev, fill="#2B2140", anchor="mm")
+        draw.text((1015, mid), rtl(clock), font=f_row, fill="#2B2140", anchor="mm")
+        _paste_flag(img, flags_dir, ev.currency, 868, int(y + (row_h - 18) / 2))
+        draw.text((912, mid), ev.currency, font=_font(bold, 15), fill="#2B2140", anchor="lm")
+        title = _fit_text(draw, rtl(ev.title), f_ev, event_max_w)
+        draw.text((event_right, mid), title, font=f_ev, fill="#2B2140", anchor="rm")
         badge, color = IMPACT.get(ev.importance, IMPACT[1])
-        bw = 78
-        bx = 430
+        bw = 72
+        bx = 365
         draw.rounded_rectangle([bx - bw / 2, y + 14, bx + bw / 2, y + row_h - 14], radius=12, fill=color)
-        draw.text((bx, y + row_h / 2), rtl(badge), font=f_badge, fill="white", anchor="mm")
-        draw.text((310, y + row_h / 2), rtl(_dash(ev.actual)), font=f_row, fill="#2B2140", anchor="mm")
-        draw.text((200, y + row_h / 2), rtl(_dash(ev.forecast)), font=f_row, fill="#2B2140", anchor="mm")
-        draw.text((90, y + row_h / 2), rtl(_dash(ev.previous)), font=f_row, fill="#2B2140", anchor="mm")
+        draw.text((bx, mid), rtl(badge), font=f_badge, fill="white", anchor="mm")
+        draw.text((270, mid), rtl(_dash(ev.actual)), font=f_row, fill="#2B2140", anchor="mm")
+        draw.text((175, mid), rtl(_dash(ev.forecast)), font=f_row, fill="#2B2140", anchor="mm")
+        draw.text((80, mid), rtl(_dash(ev.previous)), font=f_row, fill="#2B2140", anchor="mm")
         y += row_h
 
     fy = height - 42
     draw.text((margin + 8, fy), "dolphintraders.ir", font=_font(bold, 16), fill="white")
     draw.text((width - margin - 8, fy), rtl("همه زمان‌ها بر اساس زمان تهران هستند"), font=f_small, fill="white", anchor="ra")
-    img.save(path, "PNG", optimize=True)
+    _save_png(img, path)
+
+
+def _save_png(img, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_name(path.stem + "-tmp.png")
+    img.save(tmp, "PNG", optimize=True)
+    try:
+        tmp.replace(path)
+    except OSError:
+        fallback = path.with_name(path.stem + "-new.png")
+        tmp.replace(fallback)
+
+
+def _fit_text(draw, text: str, font, max_w: float) -> str:
+    if draw.textlength(text, font=font) <= max_w:
+        return text
+    ell = "…"
+    out = text
+    while out and draw.textlength(out + ell, font=font) > max_w:
+        out = out[:-1]
+    return (out + ell) if out else ell
+
+
+def _paste_flag(img, flags_dir: Path, currency: str, x: int, y: int) -> None:
+    code = (currency or "").upper()
+    path = flags_dir / f"{code}.png"
+    if not path.exists() and code == "EUR":
+        path = flags_dir / "EU.png"
+    if not path.exists():
+        return
+    try:
+        flag = Image.open(path).convert("RGBA")
+        flag.thumbnail((28, 18))
+        img.paste(flag, (x, y), flag)
+    except Exception:
+        return
 
 
 def _dash(value):
