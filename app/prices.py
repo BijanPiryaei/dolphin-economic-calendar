@@ -114,11 +114,17 @@ FOOTER = (
 )
 
 
+def _slot_clock() -> str:
+    now = datetime.now(TEHRAN)
+    minute = now.minute - (now.minute % 5)
+    return now.replace(minute=minute, second=0, microsecond=0).strftime("%H:%M:%S")
+
+
 def format_message(rows: list[dict]) -> str:
-    now = datetime.now(TEHRAN).strftime("%H:%M:%S")
+    clock = _slot_clock()
     lines = [
         "🐬 <b>Dolphin Traders</b>",
-        "نرخ تقریبی بازار",
+        f"نرخ تقریبی بازار  {clock}",
         "────────────",
     ]
     blocks = []
@@ -132,7 +138,7 @@ def format_message(rows: list[dict]) -> str:
     lines.extend(
         [
             "────────────",
-            f"🕐 تهران {now}",
+            f"🕐 تهران {clock}",
             "طلا و نقره: قیمت اسپات",
             "فارکس: Yahoo Finance",
             "بیت‌کوین و اتریوم: Binance / Yahoo",
