@@ -67,15 +67,17 @@ class Pipeline:
 
     def _caption(self, target: date, events: list) -> str:
         highs = sum(1 for e in events if e.importance == 3)
-        return (
+               return (
             f"📊 تقویم اقتصادی فردا\n"
             f"📅 {jalali_long(target)}\n"
-            f"⏰ تمامی زمان‌ها بر اساس ساعت تهران\n\n"
+            f"⏰ زمان‌ها: ساعت تهران\n\n"
             f"🔴 بسیارمهم: {highs}\n"
             f"🟠 مهم / 🔵 معمولی\n\n"
-            f"🌐 {self.settings.brand_name}\n"
-            f"{self.settings.website}\n"
-            f"منبع: {self.settings.api_provider}"
+            f"منبع رویدادها: تقویم عمومی بازار (Forex Factory)\n"
+            f"توصیه مالی نیست\n\n"
+            f"🌐 سایت: https://dolphintraders.ir\n"
+            f"📅 تقویم اقتصادی: https://t.me/DolphinTraders_ir\n"
+            f"💱 نرخ لحظه‌ای: https://t.me/ForexPreice"
         )
 
 
