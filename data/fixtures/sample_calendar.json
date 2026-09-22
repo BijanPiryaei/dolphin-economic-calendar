@@ -1,0 +1,12 @@
+[
+  {"id": "nfp", "time_utc": "12:30", "currency": "USD", "country": "United States", "event": "Non Farm Payrolls", "importance": 3, "forecast": "180K", "previous": "142K", "actual": "-"},
+  {"id": "unemp", "time_utc": "12:30", "currency": "USD", "country": "United States", "event": "Unemployment Rate", "importance": 3, "forecast": "4.2%", "previous": "4.3%", "actual": "-"},
+  {"id": "cpi", "time_utc": "12:30", "currency": "USD", "country": "United States", "event": "CPI", "importance": 3, "forecast": "2.5%", "previous": "2.6%", "actual": "-"},
+  {"id": "ecb", "time_utc": "12:15", "currency": "EUR", "country": "Euro Area", "event": "Interest Rate Decision", "importance": 3, "forecast": "3.25%", "previous": "3.25%", "actual": "-"},
+  {"id": "boe", "time_utc": "11:00", "currency": "GBP", "country": "United Kingdom", "event": "BoE Interest Rate Decision", "importance": 3, "forecast": "4.00%", "previous": "4.00%", "actual": "-"},
+  {"id": "gdp", "time_utc": "06:00", "currency": "GBP", "country": "United Kingdom", "event": "GDP", "importance": 2, "forecast": "0.2%", "previous": "0.1%", "actual": "-"},
+  {"id": "retail", "time_utc": "12:30", "currency": "CAD", "country": "Canada", "event": "Retail Sales", "importance": 2, "forecast": "0.4%", "previous": "0.1%", "actual": "-"},
+  {"id": "pmi", "time_utc": "08:00", "currency": "EUR", "country": "Euro Area", "event": "Manufacturing PMI", "importance": 2, "forecast": "50.1", "previous": "49.8", "actual": "-"},
+  {"id": "jpycpi", "time_utc": "23:30", "currency": "JPY", "country": "Japan", "event": "National CPI", "importance": 2, "forecast": "2.8%", "previous": "2.7%", "actual": "-"},
+  {"id": "rba", "time_utc": "04:30", "currency": "AUD", "country": "Australia", "event": "RBA Interest Rate Decision", "importance": 3, "forecast": "3.60%", "previous": "3.60%", "actual": "-"}
+]

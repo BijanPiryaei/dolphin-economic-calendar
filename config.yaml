@@ -1,0 +1,27 @@
+brand:
+  name: Dolphin Traders
+  website: https://dolphintraders.ir
+  footer_source_label: Source
+
+layout:
+  width: 1080
+  row_height: 56
+  header_height: 150
+  footer_height: 70
+  margin: 28
+  card_radius: 28
+
+colors:
+  background_top: "#6B2FA0"
+  background_bottom: "#4A1D7A"
+  header_pill: "#3B1468"
+  surface: "#FFFFFF"
+  text_dark: "#2B2140"
+  muted: "#7A7190"
+  border: "#E6E0F0"
+  row_alt: "#F6F3FA"
+  high: "#E11D48"
+  medium: "#F59E0B"
+  low: "#2563EB"
+  white: "#FFFFFF"
+  date_block: "#3B1468"

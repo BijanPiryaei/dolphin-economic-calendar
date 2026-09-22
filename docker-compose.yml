@@ -1,0 +1,20 @@
+services:
+  calendar:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./generated:/app/generated
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./assets:/app/assets
+    command: python -m app.main --schedule
+
+  admin:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    profiles: ["admin"]
+    command: python -m app.main --admin-bot
