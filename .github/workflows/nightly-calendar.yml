@@ -15,14 +15,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           API_PROVIDER: ${{ secrets.API_PROVIDER }}
-        run: |
-          if [ -z "$API_PROVIDER" ]; then export API_PROVIDER=forexfactory; fi
-          DATE=$(TZ=Asia/Tehran python - <<'PY'
-from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
-now = datetime.now(ZoneInfo("Asia/Tehran"))
-target = now + timedelta(days=1)
-print(target.date().isoformat())
-PY
-)
-          python -m app.main --date "$DATE"
+        run: python -m app.main --date tomorrow
