@@ -1,2 +1,17 @@
 on:
   workflow_dispatch:
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Post prices
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PRICE_CHANNEL_ID: ${{ secrets.TELEGRAM_PRICE_CHANNEL_ID }}
+        run: python -m app.main --prices
