@@ -15,4 +15,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           API_PROVIDER: ${{ secrets.API_PROVIDER }}
-        run: python -m app.main --date tomorrow
+        run: python -m app.main --date tomorrow --send --force
