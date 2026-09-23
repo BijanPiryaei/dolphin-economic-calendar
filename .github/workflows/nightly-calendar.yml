@@ -2,29 +2,3 @@ name: Nightly economic calendar
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 18 * * *"
-
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install
-        run: pip install -r requirements.txt
-      - name: Publish tomorrow calendar
-        env:
-          API_PROVIDER: ${{ secrets.API_PROVIDER }}
-          TRADING_ECONOMICS_API_KEY: ${{ secrets.TRADING_ECONOMICS_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-          TIMEZONE: Asia/Tehran
-          MIN_IMPORTANCE: "2"
-          ENABLED_CURRENCIES: USD,EUR,GBP,JPY,CAD,AUD,NZD,CHF
-          ENABLE_ADMIN_ALERTS: "false"
-        run: |
-          if [ -z "$API_PROVIDER" ]; then export API_PROVIDER=mock; fi
-          python -m app.main --send --date tomorrow --force
