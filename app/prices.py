@@ -116,7 +116,7 @@ FOOTER = (
 
 def _slot_clock() -> str:
     now = datetime.now(TEHRAN)
-    minute = now.minute - (now.minute % 5)
+    minute = now.minute - (now.minute % 15)
     return now.replace(minute=minute, second=0, microsecond=0).strftime("%H:%M:%S")
 
 
