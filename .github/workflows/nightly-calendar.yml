@@ -1,18 +1,41 @@
+name: Nightly economic calendar
+
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - run: pip install -r requirements.txt
+
       - name: Generate and send
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           API_PROVIDER: ${{ secrets.API_PROVIDER }}
-        run: python -m app.main --date tomorrow --send --force
+          TIMEZONE: Asia/Tehran
+        run: |
+          if [ -z "$API_PROVIDER" ]; then export API_PROVIDER=mock; fi
+          python -m app.main --date tomorrow --send --force
+
+      - name: Commit calendar JSON
+        run: |
+          git config user.name "dolphin-calendar"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/web-calendar.json
+          if git diff --cached --quiet; then
+            echo "No JSON change"
+          else
+            git commit -m "chore: update web calendar"
+            git push
+          fi
