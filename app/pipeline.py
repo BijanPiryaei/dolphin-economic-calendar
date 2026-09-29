@@ -41,18 +41,30 @@ class Pipeline:
         paths = render_calendar(events, target, self.settings, out_dir)
         validate_images(paths)
         self.logger.info("Image generated: %s", ", ".join(str(p.name) for p in paths))
-        self.export_web_json()
+        self.export_web_json({target: events})
         return target, paths, events
 
-    def _day_events(self, target: date) -> list:
-        raw = self.client.fetch(target)
-        return filter_events(raw, target, self.settings.min_importance, self.settings.enabled_currencies)
+    def _day_events(self, target: date, prefetched: dict | None = None) -> list:
+        if prefetched and target in prefetched:
+            return prefetched[target]
+        try:
+            raw = self.client.fetch(target)
+            return filter_events(raw, target, self.settings.min_importance, self.settings.enabled_currencies)
+        except CalendarFetchError as exc:
+            self.logger.warning("Skip extra calendar fetch for %s: %s", target, exc)
+            return []
 
-    def export_web_json(self) -> Path:
+    def export_web_json(self, prefetched: dict | None = None) -> Path:
         today = self.target_date("today")
         tomorrow = self.target_date("tomorrow")
         path = self.settings.root / "data" / "web-calendar.json"
-        write_web_calendar(path, today, self._day_events(today), tomorrow, self._day_events(tomorrow))
+        write_web_calendar(
+            path,
+            today,
+            self._day_events(today, prefetched),
+            tomorrow,
+            self._day_events(tomorrow, prefetched),
+        )
         self.logger.info("Web calendar JSON written: %s", path)
         return path
 
