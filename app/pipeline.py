@@ -11,6 +11,7 @@ from app.renderer import render_calendar
 from app.telegram_bot import TelegramClient, TelegramError
 from app.translator import Translator
 from app.validation import ValidationError, validate_events, validate_images
+from app.web_export import write_web_calendar
 
 
 class Pipeline:
@@ -40,7 +41,20 @@ class Pipeline:
         paths = render_calendar(events, target, self.settings, out_dir)
         validate_images(paths)
         self.logger.info("Image generated: %s", ", ".join(str(p.name) for p in paths))
+        self.export_web_json()
         return target, paths, events
+
+    def _day_events(self, target: date) -> list:
+        raw = self.client.fetch(target)
+        return filter_events(raw, target, self.settings.min_importance, self.settings.enabled_currencies)
+
+    def export_web_json(self) -> Path:
+        today = self.target_date("today")
+        tomorrow = self.target_date("tomorrow")
+        path = self.settings.root / "data" / "web-calendar.json"
+        write_web_calendar(path, today, self._day_events(today), tomorrow, self._day_events(tomorrow))
+        self.logger.info("Web calendar JSON written: %s", path)
+        return path
 
     def publish(self, which: str = "tomorrow", force: bool = False) -> str:
         target, paths, events = self.generate(which)
