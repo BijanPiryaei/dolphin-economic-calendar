@@ -1,0 +1,185 @@
+{
+  "updated_at": "2026-09-29T12:33:54+03:30",
+  "timezone": "Asia/Tehran",
+  "source": "Forex Factory public calendar",
+  "disclaimer": "توصیه مالی نیست",
+  "today": {
+    "date": "2026-09-29",
+    "jalali": "سه‌شنبه 7 مهر 1405",
+    "events": [
+      {
+        "time": "08:00",
+        "currency": "AUD",
+        "title": "Cash Rate",
+        "title_en": "Cash Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.60%",
+        "previous": "4.35%"
+      },
+      {
+        "time": "08:00",
+        "currency": "AUD",
+        "title": "بانک مرکزی استرالیا (RBA Rate Statement)",
+        "title_en": "RBA Rate Statement",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "09:00",
+        "currency": "AUD",
+        "title": "بانک مرکزی استرالیا (RBA Press Conference)",
+        "title_en": "RBA Press Conference",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "14:30",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
+        "title_en": "ECB President Lagarde Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "16:00",
+        "currency": "CAD",
+        "title": "تولید ناخالص داخلی (GDP m/m)",
+        "title_en": "GDP m/m",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "0.0%",
+        "previous": "0.3%"
+      },
+      {
+        "time": "17:30",
+        "currency": "USD",
+        "title": "CB Consumer Confidence",
+        "title_en": "CB Consumer Confidence",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "89.2",
+        "previous": "89.4"
+      },
+      {
+        "time": "17:30",
+        "currency": "USD",
+        "title": "JOLTS Job Openings",
+        "title_en": "JOLTS Job Openings",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "7.23M",
+        "previous": "7.27M"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-09-30",
+    "jalali": "چهارشنبه 8 مهر 1405",
+    "events": [
+      {
+        "time": "05:00",
+        "currency": "AUD",
+        "title": "CPI m/m",
+        "title_en": "CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.5%",
+        "previous": "1.0%"
+      },
+      {
+        "time": "05:00",
+        "currency": "AUD",
+        "title": "CPI y/y",
+        "title_en": "CPI y/y",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.1%",
+        "previous": "3.5%"
+      },
+      {
+        "time": "05:00",
+        "currency": "AUD",
+        "title": "Trimmed Mean CPI m/m",
+        "title_en": "Trimmed Mean CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.5%"
+      },
+      {
+        "time": "09:59",
+        "currency": "EUR",
+        "title": "German Prelim CPI m/m",
+        "title_en": "German Prelim CPI m/m",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "0.5%",
+        "previous": "0.2%"
+      },
+      {
+        "time": "15:45",
+        "currency": "USD",
+        "title": "اشتغال غیرکشاورزی (ADP Non-Farm Employment Change)",
+        "title_en": "ADP Non-Farm Employment Change",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "73K",
+        "previous": "38K"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "Core PCE Price Index m/m",
+        "title_en": "Core PCE Price Index m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "تولید ناخالص داخلی (Final GDP q/q)",
+        "title_en": "Final GDP q/q",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "1.5%",
+        "previous": "1.5%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "تولید ناخالص داخلی (Final GDP Price Index q/q)",
+        "title_en": "Final GDP Price Index q/q",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "6.4%",
+        "previous": "6.4%"
+      }
+    ]
+  },
+  "site": "https://dolphintraders.ir",
+  "telegram": "https://t.me/DolphinTraders_ir"
+}
