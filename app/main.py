@@ -25,6 +25,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--admin-bot", action="store_true")
     p.add_argument("--prices", action="store_true")
     p.add_argument("--prices-loop", action="store_true")
+    p.add_argument("--gold-init", action="store_true")
+    p.add_argument("--gold-loop", action="store_true")
     p.add_argument("--interval", type=int, default=10)
     return p
 
@@ -37,18 +39,28 @@ def main() -> int:
 
     if args.prices or args.prices_loop:
         import os
+
         from app.price_publisher import PricePublisher
 
         channel = os.getenv("TELEGRAM_PRICE_CHANNEL_ID", "").strip()
-        pub = PricePublisher(
-            settings.telegram_bot_token,
-            channel,
-            settings.root / "data" / "price_message.json",
-        )
+        pub = PricePublisher(settings.telegram_bot_token, channel, settings.root / "data" / "price_message.json")
         if args.prices_loop:
             pub.loop(args.interval)
             return 0
         logger.info(pub.publish())
+        return 0
+    if args.gold_init or args.gold_loop:
+        import os
+
+        from app.gold_publisher import GoldPublisher
+
+        channel = os.getenv("TELEGRAM_GOLD_CHANNEL_ID", "").strip()
+        pub = GoldPublisher(settings.telegram_bot_token, channel, settings.root / "data" / "gold_messages.json")
+        if args.gold_init:
+            ids = pub.init_posts()
+            logger.info("gold posts created: %s", ids)
+            return 0
+        pub.loop(args.interval)
         return 0
     if args.telegram_test:
         pipeline.tg.send_message(settings.telegram_channel_id, "✅ تست اتصال ربات Dolphin Traders")
@@ -59,6 +71,7 @@ def main() -> int:
         return 0
     if args.admin_bot:
         from app.admin_bot import run_admin_bot
+
         run_admin_bot(pipeline)
         return 0
     preview = args.preview or not args.send
