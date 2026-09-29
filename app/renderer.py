@@ -67,13 +67,16 @@ def _draw_page(events, target, settings, regular, bold, logo, path, page, total)
     draw.text((width - margin - 8, 28), rtl("تقویم اقتصادی"), font=f_small, fill="white", anchor="ra")
     draw.text((width - margin - 8, 54), rtl(str(target.year)), font=f_year, fill="white", anchor="ra")
 
+    box = [margin, 22, margin + 86, 108]
+    draw.rounded_rectangle(box, radius=18, fill="#111111")
     if logo.exists():
         mark = Image.open(logo).convert("RGBA")
-        mark.thumbnail((86, 86))
-        img.paste(mark, (margin, 22), mark)
+        mark.thumbnail((78, 78), Image.Resampling.LANCZOS)
+        px = margin + (86 - mark.width) // 2
+        py = 22 + (86 - mark.height) // 2
+        img.paste(mark, (px, py), mark)
     else:
-        draw.rounded_rectangle([margin, 22, margin + 86, 108], radius=18, fill="#C4B5FD")
-        draw.text((margin + 43, 52), "DT", font=_font(bold, 20), fill="#3B1468", anchor="mm")
+        draw.text((margin + 43, 65), "DT", font=_font(bold, 20), fill="#C4B5FD", anchor="mm")
 
     card = [margin, header_h - 20, width - margin, height - footer_h]
     draw.rounded_rectangle(card, radius=26, fill="white")
