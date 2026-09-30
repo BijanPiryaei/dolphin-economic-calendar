@@ -1,92 +1,9 @@
 {
-  "updated_at": "2026-09-29T22:10:36+03:30",
+  "updated_at": "2026-09-30T22:10:37+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-09-29",
-    "jalali": "سه‌شنبه 7 مهر 1405",
-    "events": [
-      {
-        "time": "08:00",
-        "currency": "AUD",
-        "title": "Cash Rate",
-        "title_en": "Cash Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.60%",
-        "previous": "4.35%"
-      },
-      {
-        "time": "08:00",
-        "currency": "AUD",
-        "title": "بانک مرکزی استرالیا (RBA Rate Statement)",
-        "title_en": "RBA Rate Statement",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "09:00",
-        "currency": "AUD",
-        "title": "بانک مرکزی استرالیا (RBA Press Conference)",
-        "title_en": "RBA Press Conference",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "14:30",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "تولید ناخالص داخلی (GDP m/m)",
-        "title_en": "GDP m/m",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "0.0%",
-        "previous": "0.3%"
-      },
-      {
-        "time": "17:30",
-        "currency": "USD",
-        "title": "CB Consumer Confidence",
-        "title_en": "CB Consumer Confidence",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "89.2",
-        "previous": "89.4"
-      },
-      {
-        "time": "17:30",
-        "currency": "USD",
-        "title": "JOLTS Job Openings",
-        "title_en": "JOLTS Job Openings",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "7.23M",
-        "previous": "7.27M"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-09-30",
     "jalali": "چهارشنبه 8 مهر 1405",
     "events": [
@@ -177,6 +94,111 @@
         "actual": "-",
         "forecast": "6.4%",
         "previous": "6.4%"
+      },
+      {
+        "time": "23:00",
+        "currency": "USD",
+        "title": "President Trump Speaks",
+        "title_en": "President Trump Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-01",
+    "jalali": "پنجشنبه 9 مهر 1405",
+    "events": [
+      {
+        "time": "01:30",
+        "currency": "USD",
+        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Kashkari Speaks)",
+        "title_en": "FOMC Member Kashkari Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "10:00",
+        "currency": "CHF",
+        "title": "CPI m/m",
+        "title_en": "CPI m/m",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "0.0%",
+        "previous": "0.4%"
+      },
+      {
+        "time": "11:30",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری (Unemployment Claims)",
+        "title_en": "Unemployment Claims",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "201K",
+        "previous": "197K"
+      },
+      {
+        "time": "17:00",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
+        "title_en": "ECB President Lagarde Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:30",
+        "currency": "USD",
+        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Waller Speaks)",
+        "title_en": "FOMC Member Waller Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:30",
+        "currency": "USD",
+        "title": "شاخص مدیران خرید تولید ISM",
+        "title_en": "ISM Manufacturing PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "54.8",
+        "previous": "54.6"
+      },
+      {
+        "time": "19:00",
+        "currency": "CHF",
+        "title": "SNB Chairman Schlegel Speaks",
+        "title_en": "SNB Chairman Schlegel Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
