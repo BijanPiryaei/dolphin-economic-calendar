@@ -1,114 +1,9 @@
 {
-  "updated_at": "2026-09-30T22:10:37+03:30",
+  "updated_at": "2026-10-01T22:10:43+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-09-30",
-    "jalali": "چهارشنبه 8 مهر 1405",
-    "events": [
-      {
-        "time": "05:00",
-        "currency": "AUD",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.5%",
-        "previous": "1.0%"
-      },
-      {
-        "time": "05:00",
-        "currency": "AUD",
-        "title": "CPI y/y",
-        "title_en": "CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.1%",
-        "previous": "3.5%"
-      },
-      {
-        "time": "05:00",
-        "currency": "AUD",
-        "title": "Trimmed Mean CPI m/m",
-        "title_en": "Trimmed Mean CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.5%"
-      },
-      {
-        "time": "09:59",
-        "currency": "EUR",
-        "title": "German Prelim CPI m/m",
-        "title_en": "German Prelim CPI m/m",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "0.5%",
-        "previous": "0.2%"
-      },
-      {
-        "time": "15:45",
-        "currency": "USD",
-        "title": "اشتغال غیرکشاورزی (ADP Non-Farm Employment Change)",
-        "title_en": "ADP Non-Farm Employment Change",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "73K",
-        "previous": "38K"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "Core PCE Price Index m/m",
-        "title_en": "Core PCE Price Index m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.2%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "تولید ناخالص داخلی (Final GDP q/q)",
-        "title_en": "Final GDP q/q",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "1.5%",
-        "previous": "1.5%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "تولید ناخالص داخلی (Final GDP Price Index q/q)",
-        "title_en": "Final GDP Price Index q/q",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "6.4%",
-        "previous": "6.4%"
-      },
-      {
-        "time": "23:00",
-        "currency": "USD",
-        "title": "President Trump Speaks",
-        "title_en": "President Trump Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-01",
     "jalali": "پنجشنبه 9 مهر 1405",
     "events": [
@@ -199,6 +94,78 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-02",
+    "jalali": "جمعه 10 مهر 1405",
+    "events": [
+      {
+        "time": "03:00",
+        "currency": "JPY",
+        "title": "Tokyo Core CPI y/y",
+        "title_en": "Tokyo Core CPI y/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "2.4%",
+        "previous": "1.8%"
+      },
+      {
+        "time": "12:30",
+        "currency": "EUR",
+        "title": "Core CPI Flash Estimate y/y",
+        "title_en": "Core CPI Flash Estimate y/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "2.5%",
+        "previous": "2.4%"
+      },
+      {
+        "time": "12:30",
+        "currency": "EUR",
+        "title": "CPI Flash Estimate y/y",
+        "title_en": "CPI Flash Estimate y/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "3.7%",
+        "previous": "3.3%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "Average Hourly Earnings m/m",
+        "title_en": "Average Hourly Earnings m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "اشتغال غیرکشاورزی (Non-Farm Employment Change)",
+        "title_en": "Non-Farm Employment Change",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "89K",
+        "previous": "162K"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری",
+        "title_en": "Unemployment Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.1%",
+        "previous": "4.1%"
       }
     ]
   },
