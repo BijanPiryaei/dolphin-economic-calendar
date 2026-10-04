@@ -1,171 +1,27 @@
 {
-  "updated_at": "2026-10-01T22:10:43+03:30",
+  "updated_at": "2026-10-04T22:10:37+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-01",
-    "jalali": "پنجشنبه 9 مهر 1405",
-    "events": [
-      {
-        "time": "01:30",
-        "currency": "USD",
-        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Kashkari Speaks)",
-        "title_en": "FOMC Member Kashkari Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "10:00",
-        "currency": "CHF",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "0.0%",
-        "previous": "0.4%"
-      },
-      {
-        "time": "11:30",
-        "currency": "GBP",
-        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
-        "title_en": "BOE Gov Bailey Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "نرخ بیکاری (Unemployment Claims)",
-        "title_en": "Unemployment Claims",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "201K",
-        "previous": "197K"
-      },
-      {
-        "time": "17:00",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:30",
-        "currency": "USD",
-        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Waller Speaks)",
-        "title_en": "FOMC Member Waller Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:30",
-        "currency": "USD",
-        "title": "شاخص مدیران خرید تولید ISM",
-        "title_en": "ISM Manufacturing PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "54.8",
-        "previous": "54.6"
-      },
-      {
-        "time": "19:00",
-        "currency": "CHF",
-        "title": "SNB Chairman Schlegel Speaks",
-        "title_en": "SNB Chairman Schlegel Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
+    "date": "2026-10-04",
+    "jalali": "یکشنبه 12 مهر 1405",
+    "events": []
   },
   "tomorrow": {
-    "date": "2026-10-02",
-    "jalali": "جمعه 10 مهر 1405",
+    "date": "2026-10-05",
+    "jalali": "دوشنبه 13 مهر 1405",
     "events": [
       {
-        "time": "03:00",
-        "currency": "JPY",
-        "title": "Tokyo Core CPI y/y",
-        "title_en": "Tokyo Core CPI y/y",
+        "time": "17:30",
+        "currency": "USD",
+        "title": "شاخص مدیران خرید خدمات ISM",
+        "title_en": "ISM Services PMI",
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "2.4%",
-        "previous": "1.8%"
-      },
-      {
-        "time": "12:30",
-        "currency": "EUR",
-        "title": "Core CPI Flash Estimate y/y",
-        "title_en": "Core CPI Flash Estimate y/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "2.5%",
-        "previous": "2.4%"
-      },
-      {
-        "time": "12:30",
-        "currency": "EUR",
-        "title": "CPI Flash Estimate y/y",
-        "title_en": "CPI Flash Estimate y/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "3.7%",
-        "previous": "3.3%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "Average Hourly Earnings m/m",
-        "title_en": "Average Hourly Earnings m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.3%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "اشتغال غیرکشاورزی (Non-Farm Employment Change)",
-        "title_en": "Non-Farm Employment Change",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "89K",
-        "previous": "162K"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "نرخ بیکاری",
-        "title_en": "Unemployment Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.1%",
-        "previous": "4.1%"
+        "forecast": "55.1",
+        "previous": "55.4"
       }
     ]
   },
