@@ -1,40 +1,23 @@
 {
-  "updated_at": "2026-10-06T22:10:38+03:30",
+  "updated_at": "2026-10-07T22:10:41+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-06",
-    "jalali": "سه‌شنبه 14 مهر 1405",
+    "date": "2026-10-07",
+    "jalali": "چهارشنبه 15 مهر 1405",
     "events": [
       {
-        "time": "10:05",
-        "currency": "JPY",
-        "title": "بانک مرکزی ژاپن (BOJ Gov Ueda Speaks)",
-        "title_en": "BOJ Gov Ueda Speaks",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
+        "time": "20:30",
+        "currency": "USD",
+        "title": "President Trump Speaks",
+        "title_en": "President Trump Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
         "actual": "-",
         "forecast": "-",
         "previous": "-"
       },
-      {
-        "time": "17:30",
-        "currency": "CAD",
-        "title": "شاخص مدیران خرید (Ivey PMI)",
-        "title_en": "Ivey PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "65.2",
-        "previous": "64.3"
-      }
-    ]
-  },
-  "tomorrow": {
-    "date": "2026-10-07",
-    "jalali": "چهارشنبه 15 مهر 1405",
-    "events": [
       {
         "time": "21:30",
         "currency": "USD",
@@ -45,6 +28,45 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-08",
+    "jalali": "پنجشنبه 16 مهر 1405",
+    "events": [
+      {
+        "time": "12:00",
+        "currency": "USD",
+        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Waller Speaks)",
+        "title_en": "FOMC Member Waller Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "15:45",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری (Unemployment Claims)",
+        "title_en": "Unemployment Claims",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "200K",
+        "previous": "197K"
       }
     ]
   },
