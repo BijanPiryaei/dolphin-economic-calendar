@@ -1,96 +1,17 @@
 {
-  "updated_at": "2026-10-08T22:10:41+03:30",
+  "updated_at": "2026-10-11T22:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-08",
-    "jalali": "پنجشنبه 16 مهر 1405",
-    "events": [
-      {
-        "time": "12:00",
-        "currency": "USD",
-        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Waller Speaks)",
-        "title_en": "FOMC Member Waller Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "15:45",
-        "currency": "GBP",
-        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
-        "title_en": "BOE Gov Bailey Speaks",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "نرخ بیکاری (Unemployment Claims)",
-        "title_en": "Unemployment Claims",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "200K",
-        "previous": "197K"
-      }
-    ]
+    "date": "2026-10-11",
+    "jalali": "یکشنبه 19 مهر 1405",
+    "events": []
   },
   "tomorrow": {
-    "date": "2026-10-09",
-    "jalali": "جمعه 17 مهر 1405",
-    "events": [
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "Employment Change",
-        "title_en": "Employment Change",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "6.1K",
-        "previous": "-41.7K"
-      },
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "نرخ بیکاری",
-        "title_en": "Unemployment Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "6.5%",
-        "previous": "6.4%"
-      },
-      {
-        "time": "17:30",
-        "currency": "USD",
-        "title": "Prelim UoM Consumer Sentiment",
-        "title_en": "Prelim UoM Consumer Sentiment",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "47.5",
-        "previous": "47.8"
-      },
-      {
-        "time": "17:30",
-        "currency": "USD",
-        "title": "Prelim UoM Inflation Expectations",
-        "title_en": "Prelim UoM Inflation Expectations",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "4.6%"
-      }
-    ]
+    "date": "2026-10-12",
+    "jalali": "دوشنبه 20 مهر 1405",
+    "events": []
   },
   "site": "https://dolphintraders.ir",
   "telegram": "https://t.me/DolphinTraders_ir"
