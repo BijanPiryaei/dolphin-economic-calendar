@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-11T22:10:39+03:30",
+  "updated_at": "2026-10-12T22:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-11",
-    "jalali": "یکشنبه 19 مهر 1405",
+    "date": "2026-10-12",
+    "jalali": "دوشنبه 20 مهر 1405",
     "events": []
   },
   "tomorrow": {
-    "date": "2026-10-12",
-    "jalali": "دوشنبه 20 مهر 1405",
+    "date": "2026-10-13",
+    "jalali": "سه‌شنبه 21 مهر 1405",
     "events": []
   },
   "site": "https://dolphintraders.ir",
