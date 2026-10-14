@@ -1,14 +1,9 @@
 {
-  "updated_at": "2026-10-13T22:10:42+03:30",
+  "updated_at": "2026-10-14T22:10:40+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-13",
-    "jalali": "سه‌شنبه 21 مهر 1405",
-    "events": []
-  },
-  "tomorrow": {
     "date": "2026-10-14",
     "jalali": "چهارشنبه 22 مهر 1405",
     "events": [
@@ -110,6 +105,144 @@
         "actual": "-",
         "forecast": "3.6%",
         "previous": "3.4%"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-15",
+    "jalali": "پنجشنبه 23 مهر 1405",
+    "events": [
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "Employment Change",
+        "title_en": "Employment Change",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "19.6K",
+        "previous": "39.5K"
+      },
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "نرخ بیکاری",
+        "title_en": "Unemployment Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.6%",
+        "previous": "4.6%"
+      },
+      {
+        "time": "08:00",
+        "currency": "CHF",
+        "title": "SNB Chairman Schlegel Speaks",
+        "title_en": "SNB Chairman Schlegel Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "09:30",
+        "currency": "GBP",
+        "title": "تولید ناخالص داخلی (GDP m/m)",
+        "title_en": "GDP m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-0.1%",
+        "previous": "0.4%"
+      },
+      {
+        "time": "11:00",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "13:45",
+        "currency": "EUR",
+        "title": "EU Economic Summit",
+        "title_en": "EU Economic Summit",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "Core PPI m/m",
+        "title_en": "Core PPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "خرده‌فروشی (Core Retail Sales m/m)",
+        "title_en": "Core Retail Sales m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.6%",
+        "previous": "1.4%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "PPI m/m",
+        "title_en": "PPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.6%",
+        "previous": "0.4%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "خرده‌فروشی (Retail Sales m/m)",
+        "title_en": "Retail Sales m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "1.2%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "Philly Fed Manufacturing Index",
+        "title_en": "Philly Fed Manufacturing Index",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "28.2",
+        "previous": "37.8"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری (Unemployment Claims)",
+        "title_en": "Unemployment Claims",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "199K",
+        "previous": "197K"
       }
     ]
   },
