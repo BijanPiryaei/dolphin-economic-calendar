@@ -1,114 +1,9 @@
 {
-  "updated_at": "2026-10-14T22:10:40+03:30",
+  "updated_at": "2026-10-15T22:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-14",
-    "jalali": "چهارشنبه 22 مهر 1405",
-    "events": [
-      {
-        "time": "05:40",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "09:00",
-        "currency": "GBP",
-        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
-        "title_en": "BOE Gov Bailey Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "09:35",
-        "currency": "CAD",
-        "title": "BOC Gov Macklem Speaks",
-        "title_en": "BOC Gov Macklem Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "12:00",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "13:45",
-        "currency": "EUR",
-        "title": "EU Economic Summit",
-        "title_en": "EU Economic Summit",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "Core CPI m/m",
-        "title_en": "Core CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.2%",
-        "previous": "0.3%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "Core CPI y/y",
-        "title_en": "Core CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "2.5%",
-        "previous": "2.4%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.6%",
-        "previous": "0.4%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "CPI y/y",
-        "title_en": "CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "3.6%",
-        "previous": "3.4%"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-15",
     "jalali": "پنجشنبه 23 مهر 1405",
     "events": [
@@ -243,6 +138,45 @@
         "actual": "-",
         "forecast": "199K",
         "previous": "197K"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-16",
+    "jalali": "جمعه 24 مهر 1405",
+    "events": [
+      {
+        "time": "05:30",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "07:00",
+        "currency": "USD",
+        "title": "Fed Chairman Warsh Speaks",
+        "title_en": "Fed Chairman Warsh Speaks",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "07:45",
+        "currency": "CAD",
+        "title": "BOC Gov Macklem Speaks",
+        "title_en": "BOC Gov Macklem Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
