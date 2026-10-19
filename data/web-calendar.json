@@ -1,14 +1,9 @@
 {
-  "updated_at": "2026-10-18T22:10:36+03:30",
+  "updated_at": "2026-10-19T22:10:38+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-18",
-    "jalali": "یکشنبه 26 مهر 1405",
-    "events": []
-  },
-  "tomorrow": {
     "date": "2026-10-19",
     "jalali": "دوشنبه 27 مهر 1405",
     "events": [
@@ -55,6 +50,23 @@
         "actual": "-",
         "forecast": "2.6%",
         "previous": "2.6%"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-20",
+    "jalali": "سه‌شنبه 28 مهر 1405",
+    "events": [
+      {
+        "time": "09:30",
+        "currency": "GBP",
+        "title": "Average Earnings Index 3m/y",
+        "title_en": "Average Earnings Index 3m/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "3.8%",
+        "previous": "3.9%"
       }
     ]
   },
