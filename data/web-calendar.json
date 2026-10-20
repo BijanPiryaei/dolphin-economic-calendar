@@ -1,59 +1,9 @@
 {
-  "updated_at": "2026-10-19T22:10:38+03:30",
+  "updated_at": "2026-10-20T22:10:38+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-19",
-    "jalali": "دوشنبه 27 مهر 1405",
-    "events": [
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.2%",
-        "previous": "-0.1%"
-      },
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "Median CPI y/y",
-        "title_en": "Median CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "2.0%",
-        "previous": "2.0%"
-      },
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "Trimmed CPI y/y",
-        "title_en": "Trimmed CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "1.9%",
-        "previous": "1.9%"
-      },
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "Common CPI y/y",
-        "title_en": "Common CPI y/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "2.6%",
-        "previous": "2.6%"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-20",
     "jalali": "سه‌شنبه 28 مهر 1405",
     "events": [
@@ -67,6 +17,34 @@
         "actual": "-",
         "forecast": "3.8%",
         "previous": "3.9%"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-21",
+    "jalali": "چهارشنبه 29 مهر 1405",
+    "events": [
+      {
+        "time": "09:30",
+        "currency": "GBP",
+        "title": "CPI y/y",
+        "title_en": "CPI y/y",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "3.4%",
+        "previous": "3.1%"
+      },
+      {
+        "time": "16:30",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
