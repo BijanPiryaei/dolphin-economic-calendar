@@ -1,26 +1,9 @@
 {
-  "updated_at": "2026-10-20T22:10:38+03:30",
+  "updated_at": "2026-10-21T22:10:38+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-20",
-    "jalali": "سه‌شنبه 28 مهر 1405",
-    "events": [
-      {
-        "time": "09:30",
-        "currency": "GBP",
-        "title": "Average Earnings Index 3m/y",
-        "title_en": "Average Earnings Index 3m/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "3.8%",
-        "previous": "3.9%"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-21",
     "jalali": "چهارشنبه 29 مهر 1405",
     "events": [
@@ -45,6 +28,34 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-22",
+    "jalali": "پنجشنبه 30 مهر 1405",
+    "events": [
+      {
+        "time": "01:15",
+        "currency": "NZD",
+        "title": "CPI q/q",
+        "title_en": "CPI q/q",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.8%",
+        "previous": "1.5%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری (Unemployment Claims)",
+        "title_en": "Unemployment Claims",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "200K",
+        "previous": "199K"
       }
     ]
   },
