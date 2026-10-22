@@ -1,37 +1,9 @@
 {
-  "updated_at": "2026-10-21T22:10:38+03:30",
+  "updated_at": "2026-10-22T22:10:41+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-21",
-    "jalali": "چهارشنبه 29 مهر 1405",
-    "events": [
-      {
-        "time": "09:30",
-        "currency": "GBP",
-        "title": "CPI y/y",
-        "title_en": "CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "3.4%",
-        "previous": "3.1%"
-      },
-      {
-        "time": "16:30",
-        "currency": "GBP",
-        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
-        "title_en": "BOE Gov Bailey Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-22",
     "jalali": "پنجشنبه 30 مهر 1405",
     "events": [
@@ -56,6 +28,133 @@
         "actual": "-",
         "forecast": "200K",
         "previous": "199K"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-23",
+    "jalali": "جمعه 1 آبان 1405",
+    "events": [
+      {
+        "time": "09:30",
+        "currency": "GBP",
+        "title": "خرده‌فروشی (Retail Sales m/m)",
+        "title_en": "Retail Sales m/m",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-0.1%",
+        "previous": "0.5%"
+      },
+      {
+        "time": "10:45",
+        "currency": "EUR",
+        "title": "شاخص مدیران خرید (French Flash Manufacturing PMI)",
+        "title_en": "French Flash Manufacturing PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "50.5",
+        "previous": "50.3"
+      },
+      {
+        "time": "10:45",
+        "currency": "EUR",
+        "title": "شاخص مدیران خرید (French Flash Services PMI)",
+        "title_en": "French Flash Services PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "50.7",
+        "previous": "51.4"
+      },
+      {
+        "time": "11:00",
+        "currency": "EUR",
+        "title": "شاخص مدیران خرید (German Flash Manufacturing PMI)",
+        "title_en": "German Flash Manufacturing PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "53.5",
+        "previous": "53.8"
+      },
+      {
+        "time": "11:00",
+        "currency": "EUR",
+        "title": "شاخص مدیران خرید (German Flash Services PMI)",
+        "title_en": "German Flash Services PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "52.5",
+        "previous": "52.9"
+      },
+      {
+        "time": "12:00",
+        "currency": "GBP",
+        "title": "شاخص مدیران خرید (Flash Manufacturing PMI)",
+        "title_en": "Flash Manufacturing PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "51.8",
+        "previous": "52.0"
+      },
+      {
+        "time": "12:00",
+        "currency": "GBP",
+        "title": "شاخص مدیران خرید (Flash Services PMI)",
+        "title_en": "Flash Services PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "51.8",
+        "previous": "51.7"
+      },
+      {
+        "time": "17:15",
+        "currency": "USD",
+        "title": "شاخص مدیران خرید (Flash Manufacturing PMI)",
+        "title_en": "Flash Manufacturing PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "55.4",
+        "previous": "57.0"
+      },
+      {
+        "time": "17:15",
+        "currency": "USD",
+        "title": "شاخص مدیران خرید (Flash Services PMI)",
+        "title_en": "Flash Services PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "57.9",
+        "previous": "58.7"
+      },
+      {
+        "time": "17:30",
+        "currency": "USD",
+        "title": "Revised UoM Consumer Sentiment",
+        "title_en": "Revised UoM Consumer Sentiment",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "46.3",
+        "previous": "46.3"
+      },
+      {
+        "time": "17:30",
+        "currency": "USD",
+        "title": "Revised UoM Inflation Expectations",
+        "title_en": "Revised UoM Inflation Expectations",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "4.7%"
       }
     ]
   },
