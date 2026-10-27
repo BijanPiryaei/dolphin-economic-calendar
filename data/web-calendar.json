@@ -1,14 +1,9 @@
 {
-  "updated_at": "2026-10-26T22:10:39+03:30",
+  "updated_at": "2026-10-27T22:10:37+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-26",
-    "jalali": "دوشنبه 4 آبان 1405",
-    "events": []
-  },
-  "tomorrow": {
     "date": "2026-10-27",
     "jalali": "سه‌شنبه 5 آبان 1405",
     "events": [
@@ -20,8 +15,190 @@
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "80.7",
+        "forecast": "81.2",
         "previous": "81.9"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-28",
+    "jalali": "چهارشنبه 6 آبان 1405",
+    "events": [
+      {
+        "time": "03:45",
+        "currency": "AUD",
+        "title": "بانک مرکزی استرالیا (RBA Gov Bullock Speaks)",
+        "title_en": "RBA Gov Bullock Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "CPI m/m",
+        "title_en": "CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.7%",
+        "previous": "0.4%"
+      },
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "CPI y/y",
+        "title_en": "CPI y/y",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.2%",
+        "previous": "4.0%"
+      },
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "Trimmed Mean CPI m/m",
+        "title_en": "Trimmed Mean CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "time": "04:30",
+        "currency": "NZD",
+        "title": "Official Cash Rate",
+        "title_en": "Official Cash Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "3.00%",
+        "previous": "2.75%"
+      },
+      {
+        "time": "04:30",
+        "currency": "NZD",
+        "title": "RBNZ Rate Statement",
+        "title_en": "RBNZ Rate Statement",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "05:30",
+        "currency": "NZD",
+        "title": "RBNZ Press Conference",
+        "title_en": "RBNZ Press Conference",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "16:00",
+        "currency": "GBP",
+        "title": "Annual Budget Release",
+        "title_en": "Annual Budget Release",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "16:00",
+        "currency": "GBP",
+        "title": "Autumn Forecast Statement",
+        "title_en": "Autumn Forecast Statement",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:15",
+        "currency": "CAD",
+        "title": "BOC Monetary Policy Report",
+        "title_en": "BOC Monetary Policy Report",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:15",
+        "currency": "CAD",
+        "title": "BOC Rate Statement",
+        "title_en": "BOC Rate Statement",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:15",
+        "currency": "CAD",
+        "title": "Overnight Rate",
+        "title_en": "Overnight Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "2.50%",
+        "previous": "2.25%"
+      },
+      {
+        "time": "18:00",
+        "currency": "CAD",
+        "title": "BOC Press Conference",
+        "title_en": "BOC Press Conference",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "21:30",
+        "currency": "USD",
+        "title": "Federal Funds Rate",
+        "title_en": "Federal Funds Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.00%",
+        "previous": "4.00%"
+      },
+      {
+        "time": "21:30",
+        "currency": "USD",
+        "title": "بیانیه کمیته بازار آزاد فدرال رزرو",
+        "title_en": "FOMC Statement",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "22:00",
+        "currency": "USD",
+        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Press Conference)",
+        "title_en": "FOMC Press Conference",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
