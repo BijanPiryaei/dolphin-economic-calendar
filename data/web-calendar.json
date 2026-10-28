@@ -1,26 +1,9 @@
 {
-  "updated_at": "2026-10-27T22:10:37+03:30",
+  "updated_at": "2026-10-28T22:10:42+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-27",
-    "jalali": "سه‌شنبه 5 آبان 1405",
-    "events": [
-      {
-        "time": "17:30",
-        "currency": "USD",
-        "title": "CB Consumer Confidence",
-        "title_en": "CB Consumer Confidence",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "81.2",
-        "previous": "81.9"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-28",
     "jalali": "چهارشنبه 6 آبان 1405",
     "events": [
@@ -194,6 +177,89 @@
         "currency": "USD",
         "title": "کمیته بازار آزاد فدرال رزرو (FOMC Press Conference)",
         "title_en": "FOMC Press Conference",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-29",
+    "jalali": "پنجشنبه 7 آبان 1405",
+    "events": [
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "تولید ناخالص داخلی (Advance GDP q/q)",
+        "title_en": "Advance GDP q/q",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "3.2%",
+        "previous": "1.5%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "Core PCE Price Index m/m",
+        "title_en": "Core PCE Price Index m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "تولید ناخالص داخلی (Advance GDP Price Index q/q)",
+        "title_en": "Advance GDP Price Index q/q",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "3.2%",
+        "previous": "6.2%"
+      },
+      {
+        "time": "16:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری (Unemployment Claims)",
+        "title_en": "Unemployment Claims",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "198K",
+        "previous": "194K"
+      },
+      {
+        "time": "16:45",
+        "currency": "EUR",
+        "title": "Main Refinancing Rate",
+        "title_en": "Main Refinancing Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "2.65%",
+        "previous": "2.65%"
+      },
+      {
+        "time": "16:45",
+        "currency": "EUR",
+        "title": "Monetary Policy Statement",
+        "title_en": "Monetary Policy Statement",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:15",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB Press Conference)",
+        "title_en": "ECB Press Conference",
         "importance": 3,
         "importance_fa": "بسیارمهم",
         "actual": "-",
