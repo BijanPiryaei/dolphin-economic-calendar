@@ -1,193 +1,27 @@
 {
-  "updated_at": "2026-10-29T22:10:38+03:30",
+  "updated_at": "2026-11-01T23:10:40+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-10-29",
-    "jalali": "پنجشنبه 7 آبان 1405",
-    "events": [
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "تولید ناخالص داخلی (Advance GDP q/q)",
-        "title_en": "Advance GDP q/q",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "3.2%",
-        "previous": "1.5%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "Core PCE Price Index m/m",
-        "title_en": "Core PCE Price Index m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.2%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "تولید ناخالص داخلی (Advance GDP Price Index q/q)",
-        "title_en": "Advance GDP Price Index q/q",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "3.2%",
-        "previous": "6.2%"
-      },
-      {
-        "time": "16:00",
-        "currency": "USD",
-        "title": "نرخ بیکاری (Unemployment Claims)",
-        "title_en": "Unemployment Claims",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "198K",
-        "previous": "194K"
-      },
-      {
-        "time": "16:45",
-        "currency": "EUR",
-        "title": "Main Refinancing Rate",
-        "title_en": "Main Refinancing Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "2.65%",
-        "previous": "2.65%"
-      },
-      {
-        "time": "16:45",
-        "currency": "EUR",
-        "title": "Monetary Policy Statement",
-        "title_en": "Monetary Policy Statement",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:15",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB Press Conference)",
-        "title_en": "ECB Press Conference",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
+    "date": "2026-11-01",
+    "jalali": "یکشنبه 10 آبان 1405",
+    "events": []
   },
   "tomorrow": {
-    "date": "2026-10-30",
-    "jalali": "جمعه 8 آبان 1405",
+    "date": "2026-11-02",
+    "jalali": "دوشنبه 11 آبان 1405",
     "events": [
       {
-        "time": "03:00",
-        "currency": "JPY",
-        "title": "Tokyo Core CPI y/y",
-        "title_en": "Tokyo Core CPI y/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "2.6%",
-        "previous": "2.7%"
-      },
-      {
-        "time": "06:00",
-        "currency": "JPY",
-        "title": "بانک مرکزی ژاپن (BOJ Policy Rate)",
-        "title_en": "BOJ Policy Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "<1.25%",
-        "previous": "<1.25%"
-      },
-      {
-        "time": "06:00",
-        "currency": "JPY",
-        "title": "Monetary Policy Statement",
-        "title_en": "Monetary Policy Statement",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "06:01",
-        "currency": "JPY",
-        "title": "بانک مرکزی ژاپن (BOJ Outlook Report)",
-        "title_en": "BOJ Outlook Report",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "09:00",
-        "currency": "JPY",
-        "title": "بانک مرکزی ژاپن (BOJ Press Conference)",
-        "title_en": "BOJ Press Conference",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "10:59",
-        "currency": "EUR",
-        "title": "German Prelim CPI m/m",
-        "title_en": "German Prelim CPI m/m",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "0.1%",
-        "previous": "0.6%"
-      },
-      {
-        "time": "12:30",
-        "currency": "EUR",
-        "title": "تولید ناخالص داخلی (German Prelim GDP q/q)",
-        "title_en": "German Prelim GDP q/q",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "0.1%",
-        "previous": "0.2%"
-      },
-      {
-        "time": "16:00",
+        "time": "18:30",
         "currency": "USD",
-        "title": "Employment Cost Index q/q",
-        "title_en": "Employment Cost Index q/q",
+        "title": "شاخص مدیران خرید تولید ISM",
+        "title_en": "ISM Manufacturing PMI",
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "0.8%",
-        "previous": "0.9%"
-      },
-      {
-        "time": "16:00",
-        "currency": "CAD",
-        "title": "تولید ناخالص داخلی (GDP m/m)",
-        "title_en": "GDP m/m",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "0.2%",
-        "previous": "0.0%"
+        "forecast": "54.7",
+        "previous": "54.5"
       }
     ]
   },
