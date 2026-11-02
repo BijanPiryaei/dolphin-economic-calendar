@@ -1,14 +1,9 @@
 {
-  "updated_at": "2026-11-01T23:10:40+03:30",
+  "updated_at": "2026-11-02T23:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-01",
-    "jalali": "یکشنبه 10 آبان 1405",
-    "events": []
-  },
-  "tomorrow": {
     "date": "2026-11-02",
     "jalali": "دوشنبه 11 آبان 1405",
     "events": [
@@ -20,8 +15,102 @@
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "54.7",
+        "forecast": "54.5",
         "previous": "54.5"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-03",
+    "jalali": "سه‌شنبه 12 آبان 1405",
+    "events": [
+      {
+        "time": "07:00",
+        "currency": "AUD",
+        "title": "Cash Rate",
+        "title_en": "Cash Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.85%",
+        "previous": "4.60%"
+      },
+      {
+        "time": "07:00",
+        "currency": "AUD",
+        "title": "بانک مرکزی استرالیا (RBA Monetary Policy Statement)",
+        "title_en": "RBA Monetary Policy Statement",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "07:00",
+        "currency": "AUD",
+        "title": "بانک مرکزی استرالیا (RBA Rate Statement)",
+        "title_en": "RBA Rate Statement",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "08:00",
+        "currency": "AUD",
+        "title": "بانک مرکزی استرالیا (RBA Press Conference)",
+        "title_en": "RBA Press Conference",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "11:00",
+        "currency": "CHF",
+        "title": "CPI m/m",
+        "title_en": "CPI m/m",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "0.0%",
+        "previous": "0.0%"
+      },
+      {
+        "time": "18:30",
+        "currency": "USD",
+        "title": "JOLTS Job Openings",
+        "title_en": "JOLTS Job Openings",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "7.11M",
+        "previous": "7.08M"
+      },
+      {
+        "time": "18:46",
+        "currency": "USD",
+        "title": "Congressional Elections",
+        "title_en": "Congressional Elections",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "19:30",
+        "currency": "CAD",
+        "title": "BOC Gov Macklem Speaks",
+        "title_en": "BOC Gov Macklem Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
