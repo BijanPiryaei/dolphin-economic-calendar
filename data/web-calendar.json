@@ -1,26 +1,9 @@
 {
-  "updated_at": "2026-11-02T23:10:39+03:30",
+  "updated_at": "2026-11-03T23:10:46+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-02",
-    "jalali": "دوشنبه 11 آبان 1405",
-    "events": [
-      {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "شاخص مدیران خرید تولید ISM",
-        "title_en": "ISM Manufacturing PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "54.5",
-        "previous": "54.5"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-03",
     "jalali": "سه‌شنبه 12 آبان 1405",
     "events": [
@@ -87,7 +70,7 @@
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "7.11M",
+        "forecast": "7.15M",
         "previous": "7.08M"
       },
       {
@@ -111,6 +94,67 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-04",
+    "jalali": "چهارشنبه 13 آبان 1405",
+    "events": [
+      {
+        "time": "01:15",
+        "currency": "NZD",
+        "title": "Employment Change q/q",
+        "title_en": "Employment Change q/q",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.4%",
+        "previous": "0.5%"
+      },
+      {
+        "time": "01:15",
+        "currency": "NZD",
+        "title": "نرخ بیکاری",
+        "title_en": "Unemployment Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "5.5%",
+        "previous": "5.6%"
+      },
+      {
+        "time": "13:30",
+        "currency": "EUR",
+        "title": "Core CPI Flash Estimate y/y",
+        "title_en": "Core CPI Flash Estimate y/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "2.5%",
+        "previous": "2.5%"
+      },
+      {
+        "time": "13:30",
+        "currency": "EUR",
+        "title": "CPI Flash Estimate y/y",
+        "title_en": "CPI Flash Estimate y/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "4.0%",
+        "previous": "3.8%"
+      },
+      {
+        "time": "18:30",
+        "currency": "USD",
+        "title": "شاخص مدیران خرید خدمات ISM",
+        "title_en": "ISM Services PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "54.8",
+        "previous": "54.9"
       }
     ]
   },
