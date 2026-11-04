@@ -1,103 +1,9 @@
 {
-  "updated_at": "2026-11-03T23:10:46+03:30",
+  "updated_at": "2026-11-04T23:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-03",
-    "jalali": "سه‌شنبه 12 آبان 1405",
-    "events": [
-      {
-        "time": "07:00",
-        "currency": "AUD",
-        "title": "Cash Rate",
-        "title_en": "Cash Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.85%",
-        "previous": "4.60%"
-      },
-      {
-        "time": "07:00",
-        "currency": "AUD",
-        "title": "بانک مرکزی استرالیا (RBA Monetary Policy Statement)",
-        "title_en": "RBA Monetary Policy Statement",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "07:00",
-        "currency": "AUD",
-        "title": "بانک مرکزی استرالیا (RBA Rate Statement)",
-        "title_en": "RBA Rate Statement",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "08:00",
-        "currency": "AUD",
-        "title": "بانک مرکزی استرالیا (RBA Press Conference)",
-        "title_en": "RBA Press Conference",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "11:00",
-        "currency": "CHF",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "0.0%",
-        "previous": "0.0%"
-      },
-      {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "JOLTS Job Openings",
-        "title_en": "JOLTS Job Openings",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "7.15M",
-        "previous": "7.08M"
-      },
-      {
-        "time": "18:46",
-        "currency": "USD",
-        "title": "Congressional Elections",
-        "title_en": "Congressional Elections",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "19:30",
-        "currency": "CAD",
-        "title": "BOC Gov Macklem Speaks",
-        "title_en": "BOC Gov Macklem Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-04",
     "jalali": "چهارشنبه 13 آبان 1405",
     "events": [
@@ -155,6 +61,111 @@
         "actual": "-",
         "forecast": "54.8",
         "previous": "54.9"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-05",
+    "jalali": "پنجشنبه 14 آبان 1405",
+    "events": [
+      {
+        "time": "15:30",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Monetary Policy Report)",
+        "title_en": "BOE Monetary Policy Report",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "15:30",
+        "currency": "GBP",
+        "title": "Monetary Policy Summary",
+        "title_en": "Monetary Policy Summary",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "15:30",
+        "currency": "GBP",
+        "title": "MPC Official Bank Rate Votes",
+        "title_en": "MPC Official Bank Rate Votes",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "7-0-2",
+        "previous": "3-0-6"
+      },
+      {
+        "time": "15:30",
+        "currency": "GBP",
+        "title": "Official Bank Rate",
+        "title_en": "Official Bank Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.00%",
+        "previous": "3.75%"
+      },
+      {
+        "time": "16:00",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "16:10",
+        "currency": "CHF",
+        "title": "SNB Chairman Schlegel Speaks",
+        "title_en": "SNB Chairman Schlegel Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری (Unemployment Claims)",
+        "title_en": "Unemployment Claims",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "197K",
+        "previous": "194K"
+      },
+      {
+        "time": "19:00",
+        "currency": "CAD",
+        "title": "BOC Gov Macklem Speaks",
+        "title_en": "BOC Gov Macklem Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "21:30",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
+        "title_en": "ECB President Lagarde Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
