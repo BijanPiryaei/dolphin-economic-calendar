@@ -1,70 +1,9 @@
 {
-  "updated_at": "2026-11-04T23:10:39+03:30",
+  "updated_at": "2026-11-05T23:10:40+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-04",
-    "jalali": "چهارشنبه 13 آبان 1405",
-    "events": [
-      {
-        "time": "01:15",
-        "currency": "NZD",
-        "title": "Employment Change q/q",
-        "title_en": "Employment Change q/q",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.4%",
-        "previous": "0.5%"
-      },
-      {
-        "time": "01:15",
-        "currency": "NZD",
-        "title": "نرخ بیکاری",
-        "title_en": "Unemployment Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "5.5%",
-        "previous": "5.6%"
-      },
-      {
-        "time": "13:30",
-        "currency": "EUR",
-        "title": "Core CPI Flash Estimate y/y",
-        "title_en": "Core CPI Flash Estimate y/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "2.5%",
-        "previous": "2.5%"
-      },
-      {
-        "time": "13:30",
-        "currency": "EUR",
-        "title": "CPI Flash Estimate y/y",
-        "title_en": "CPI Flash Estimate y/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "4.0%",
-        "previous": "3.8%"
-      },
-      {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "شاخص مدیران خرید خدمات ISM",
-        "title_en": "ISM Services PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "54.8",
-        "previous": "54.9"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-05",
     "jalali": "پنجشنبه 14 آبان 1405",
     "events": [
@@ -163,6 +102,122 @@
         "title_en": "ECB President Lagarde Speaks",
         "importance": 2,
         "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-06",
+    "jalali": "جمعه 15 آبان 1405",
+    "events": [
+      {
+        "time": "00:30",
+        "currency": "CAD",
+        "title": "Annual Budget Release",
+        "title_en": "Annual Budget Release",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "Average Hourly Earnings m/m",
+        "title_en": "Average Hourly Earnings m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.1%"
+      },
+      {
+        "time": "17:00",
+        "currency": "CAD",
+        "title": "Employment Change",
+        "title_en": "Employment Change",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "14.6K",
+        "previous": "-68.3K"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "اشتغال غیرکشاورزی (Non-Farm Employment Change)",
+        "title_en": "Non-Farm Employment Change",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "65K",
+        "previous": "29K"
+      },
+      {
+        "time": "17:00",
+        "currency": "CAD",
+        "title": "نرخ بیکاری",
+        "title_en": "Unemployment Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "6.5%",
+        "previous": "6.5%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری",
+        "title_en": "Unemployment Rate",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.2%",
+        "previous": "4.2%"
+      },
+      {
+        "time": "18:30",
+        "currency": "CAD",
+        "title": "شاخص مدیران خرید (Ivey PMI)",
+        "title_en": "Ivey PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "57.7",
+        "previous": "58.2"
+      },
+      {
+        "time": "18:30",
+        "currency": "USD",
+        "title": "Prelim UoM Consumer Sentiment",
+        "title_en": "Prelim UoM Consumer Sentiment",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "48.1",
+        "previous": "46.3"
+      },
+      {
+        "time": "18:30",
+        "currency": "USD",
+        "title": "Prelim UoM Inflation Expectations",
+        "title_en": "Prelim UoM Inflation Expectations",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "4.7%"
+      },
+      {
+        "time": "19:30",
+        "currency": "JPY",
+        "title": "بانک مرکزی ژاپن (BOJ Gov Ueda Speaks)",
+        "title_en": "BOJ Gov Ueda Speaks",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
         "actual": "-",
         "forecast": "-",
         "previous": "-"
