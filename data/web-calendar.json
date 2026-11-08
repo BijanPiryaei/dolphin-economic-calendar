@@ -1,223 +1,24 @@
 {
-  "updated_at": "2026-11-05T23:10:40+03:30",
+  "updated_at": "2026-11-08T23:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-05",
-    "jalali": "پنجشنبه 14 آبان 1405",
+    "date": "2026-11-08",
+    "jalali": "یکشنبه 17 آبان 1405",
+    "events": []
+  },
+  "tomorrow": {
+    "date": "2026-11-09",
+    "jalali": "دوشنبه 18 آبان 1405",
     "events": [
       {
-        "time": "15:30",
-        "currency": "GBP",
-        "title": "بانک مرکزی انگلستان (BOE Monetary Policy Report)",
-        "title_en": "BOE Monetary Policy Report",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "15:30",
-        "currency": "GBP",
-        "title": "Monetary Policy Summary",
-        "title_en": "Monetary Policy Summary",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "15:30",
-        "currency": "GBP",
-        "title": "MPC Official Bank Rate Votes",
-        "title_en": "MPC Official Bank Rate Votes",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "7-0-2",
-        "previous": "3-0-6"
-      },
-      {
-        "time": "15:30",
-        "currency": "GBP",
-        "title": "Official Bank Rate",
-        "title_en": "Official Bank Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.00%",
-        "previous": "3.75%"
-      },
-      {
-        "time": "16:00",
+        "time": "20:55",
         "currency": "GBP",
         "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
         "title_en": "BOE Gov Bailey Speaks",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "16:10",
-        "currency": "CHF",
-        "title": "SNB Chairman Schlegel Speaks",
-        "title_en": "SNB Chairman Schlegel Speaks",
         "importance": 2,
         "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "نرخ بیکاری (Unemployment Claims)",
-        "title_en": "Unemployment Claims",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "197K",
-        "previous": "194K"
-      },
-      {
-        "time": "19:00",
-        "currency": "CAD",
-        "title": "BOC Gov Macklem Speaks",
-        "title_en": "BOC Gov Macklem Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "21:30",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
-    "date": "2026-11-06",
-    "jalali": "جمعه 15 آبان 1405",
-    "events": [
-      {
-        "time": "00:30",
-        "currency": "CAD",
-        "title": "Annual Budget Release",
-        "title_en": "Annual Budget Release",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "Average Hourly Earnings m/m",
-        "title_en": "Average Hourly Earnings m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.1%"
-      },
-      {
-        "time": "17:00",
-        "currency": "CAD",
-        "title": "Employment Change",
-        "title_en": "Employment Change",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "14.6K",
-        "previous": "-68.3K"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "اشتغال غیرکشاورزی (Non-Farm Employment Change)",
-        "title_en": "Non-Farm Employment Change",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "65K",
-        "previous": "29K"
-      },
-      {
-        "time": "17:00",
-        "currency": "CAD",
-        "title": "نرخ بیکاری",
-        "title_en": "Unemployment Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "6.5%",
-        "previous": "6.5%"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "نرخ بیکاری",
-        "title_en": "Unemployment Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.2%",
-        "previous": "4.2%"
-      },
-      {
-        "time": "18:30",
-        "currency": "CAD",
-        "title": "شاخص مدیران خرید (Ivey PMI)",
-        "title_en": "Ivey PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "57.7",
-        "previous": "58.2"
-      },
-      {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "Prelim UoM Consumer Sentiment",
-        "title_en": "Prelim UoM Consumer Sentiment",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "48.1",
-        "previous": "46.3"
-      },
-      {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "Prelim UoM Inflation Expectations",
-        "title_en": "Prelim UoM Inflation Expectations",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "4.7%"
-      },
-      {
-        "time": "19:30",
-        "currency": "JPY",
-        "title": "بانک مرکزی ژاپن (BOJ Gov Ueda Speaks)",
-        "title_en": "BOJ Gov Ueda Speaks",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
         "actual": "-",
         "forecast": "-",
         "previous": "-"
