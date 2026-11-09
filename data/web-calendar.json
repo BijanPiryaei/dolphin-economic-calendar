@@ -1,14 +1,9 @@
 {
-  "updated_at": "2026-11-08T23:10:39+03:30",
+  "updated_at": "2026-11-09T23:10:40+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-08",
-    "jalali": "یکشنبه 17 آبان 1405",
-    "events": []
-  },
-  "tomorrow": {
     "date": "2026-11-09",
     "jalali": "دوشنبه 18 آبان 1405",
     "events": [
@@ -22,6 +17,45 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-10",
+    "jalali": "سه‌شنبه 19 آبان 1405",
+    "events": [
+      {
+        "time": "12:30",
+        "currency": "USD",
+        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Waller Speaks)",
+        "title_en": "FOMC Member Waller Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "Core CPI m/m",
+        "title_en": "Core CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.2%",
+        "previous": "0.3%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "CPI m/m",
+        "title_en": "CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.6%"
       }
     ]
   },
