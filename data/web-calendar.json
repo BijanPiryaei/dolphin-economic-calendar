@@ -1,53 +1,64 @@
 {
-  "updated_at": "2026-11-10T23:10:38+03:30",
+  "updated_at": "2026-11-11T23:10:38+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-10",
-    "jalali": "سه‌شنبه 19 آبان 1405",
-    "events": [
-      {
-        "time": "12:30",
-        "currency": "USD",
-        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Member Waller Speaks)",
-        "title_en": "FOMC Member Waller Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "Core CPI m/m",
-        "title_en": "Core CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.2%",
-        "previous": "0.3%"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.6%"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-11",
     "jalali": "چهارشنبه 20 آبان 1405",
     "events": [
       {
         "time": "13:15",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
+        "title_en": "ECB President Lagarde Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-12",
+    "jalali": "پنجشنبه 21 آبان 1405",
+    "events": [
+      {
+        "time": "10:30",
+        "currency": "GBP",
+        "title": "تولید ناخالص داخلی (GDP m/m)",
+        "title_en": "GDP m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.0%",
+        "previous": "0.1%"
+      },
+      {
+        "time": "10:30",
+        "currency": "GBP",
+        "title": "تولید ناخالص داخلی (Prelim GDP q/q)",
+        "title_en": "Prelim GDP q/q",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "0.7%",
+        "previous": "0.5%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "نرخ بیکاری (Unemployment Claims)",
+        "title_en": "Unemployment Claims",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "194K",
+        "previous": "189K"
+      },
+      {
+        "time": "23:00",
         "currency": "EUR",
         "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
         "title_en": "ECB President Lagarde Speaks",
