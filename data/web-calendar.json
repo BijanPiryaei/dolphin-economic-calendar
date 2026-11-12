@@ -1,26 +1,9 @@
 {
-  "updated_at": "2026-11-11T23:10:38+03:30",
+  "updated_at": "2026-11-12T23:10:37+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-11",
-    "jalali": "چهارشنبه 20 آبان 1405",
-    "events": [
-      {
-        "time": "13:15",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-12",
     "jalali": "پنجشنبه 21 آبان 1405",
     "events": [
@@ -67,6 +50,34 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-13",
+    "jalali": "جمعه 22 آبان 1405",
+    "events": [
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "Core PPI m/m",
+        "title_en": "Core PPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.7%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "PPI m/m",
+        "title_en": "PPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.4%",
+        "previous": "1.3%"
       }
     ]
   },
