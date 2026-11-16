@@ -1,14 +1,9 @@
 {
-  "updated_at": "2026-11-15T23:10:39+03:30",
+  "updated_at": "2026-11-16T23:10:38+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-15",
-    "jalali": "یکشنبه 24 آبان 1405",
-    "events": []
-  },
-  "tomorrow": {
     "date": "2026-11-16",
     "jalali": "دوشنبه 25 آبان 1405",
     "events": [
@@ -66,6 +61,67 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-17",
+    "jalali": "سه‌شنبه 26 آبان 1405",
+    "events": [
+      {
+        "time": "02:20",
+        "currency": "AUD",
+        "title": "بانک مرکزی استرالیا (RBA Gov Bullock Speaks)",
+        "title_en": "RBA Gov Bullock Speaks",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "05:30",
+        "currency": "NZD",
+        "title": "Inflation Expectations q/q",
+        "title_en": "Inflation Expectations q/q",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "2.34%"
+      },
+      {
+        "time": "10:30",
+        "currency": "GBP",
+        "title": "Average Earnings Index 3m/y",
+        "title_en": "Average Earnings Index 3m/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "3.5%",
+        "previous": "3.7%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "خرده‌فروشی (Core Retail Sales m/m)",
+        "title_en": "Core Retail Sales m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.4%",
+        "previous": "0.9%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "خرده‌فروشی (Retail Sales m/m)",
+        "title_en": "Retail Sales m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.2%",
+        "previous": "0.8%"
       }
     ]
   },
