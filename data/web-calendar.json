@@ -1,70 +1,9 @@
 {
-  "updated_at": "2026-11-16T23:10:38+03:30",
+  "updated_at": "2026-11-17T23:10:42+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-16",
-    "jalali": "دوشنبه 25 آبان 1405",
-    "events": [
-      {
-        "time": "17:00",
-        "currency": "CAD",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.1%"
-      },
-      {
-        "time": "17:00",
-        "currency": "CAD",
-        "title": "Median CPI y/y",
-        "title_en": "Median CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "2.0%",
-        "previous": "1.9%"
-      },
-      {
-        "time": "17:00",
-        "currency": "CAD",
-        "title": "Trimmed CPI y/y",
-        "title_en": "Trimmed CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "1.9%",
-        "previous": "1.8%"
-      },
-      {
-        "time": "17:00",
-        "currency": "CAD",
-        "title": "Common CPI y/y",
-        "title_en": "Common CPI y/y",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "2.5%",
-        "previous": "2.4%"
-      },
-      {
-        "time": "20:30",
-        "currency": "USD",
-        "title": "Fed Chairman Warsh Speaks",
-        "title_en": "Fed Chairman Warsh Speaks",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-17",
     "jalali": "سه‌شنبه 26 آبان 1405",
     "events": [
@@ -75,6 +14,17 @@
         "title_en": "RBA Gov Bullock Speaks",
         "importance": 3,
         "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "03:30",
+        "currency": "NZD",
+        "title": "RBNZ Gov Breman Speaks",
+        "title_en": "RBNZ Gov Breman Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
         "actual": "-",
         "forecast": "-",
         "previous": "-"
@@ -120,8 +70,102 @@
         "importance": 3,
         "importance_fa": "بسیارمهم",
         "actual": "-",
-        "forecast": "0.2%",
+        "forecast": "0.1%",
         "previous": "0.8%"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-18",
+    "jalali": "چهارشنبه 27 آبان 1405",
+    "events": [
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "Wage Price Index q/q",
+        "title_en": "Wage Price Index q/q",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "1.0%",
+        "previous": "0.8%"
+      },
+      {
+        "time": "10:30",
+        "currency": "GBP",
+        "title": "CPI y/y",
+        "title_en": "CPI y/y",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "3.6%",
+        "previous": "3.5%"
+      },
+      {
+        "time": "11:00",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "12:30",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB Financial Stability Review)",
+        "title_en": "ECB Financial Stability Review",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "17:55",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
+        "title_en": "ECB President Lagarde Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "18:30",
+        "currency": "GBP",
+        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
+        "title_en": "BOE Gov Bailey Speaks",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "21:30",
+        "currency": "NZD",
+        "title": "RBNZ Gov Breman Speaks",
+        "title_en": "RBNZ Gov Breman Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "22:30",
+        "currency": "USD",
+        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Meeting Minutes)",
+        "title_en": "FOMC Meeting Minutes",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
