@@ -1,103 +1,9 @@
 {
-  "updated_at": "2026-11-18T23:10:36+03:30",
+  "updated_at": "2026-11-19T23:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-18",
-    "jalali": "چهارشنبه 27 آبان 1405",
-    "events": [
-      {
-        "time": "04:00",
-        "currency": "AUD",
-        "title": "Wage Price Index q/q",
-        "title_en": "Wage Price Index q/q",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "1.0%",
-        "previous": "0.8%"
-      },
-      {
-        "time": "10:30",
-        "currency": "GBP",
-        "title": "CPI y/y",
-        "title_en": "CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "3.6%",
-        "previous": "3.5%"
-      },
-      {
-        "time": "11:00",
-        "currency": "GBP",
-        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
-        "title_en": "BOE Gov Bailey Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "12:30",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB Financial Stability Review)",
-        "title_en": "ECB Financial Stability Review",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:55",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "18:30",
-        "currency": "GBP",
-        "title": "بانک مرکزی انگلستان (BOE Gov Bailey Speaks)",
-        "title_en": "BOE Gov Bailey Speaks",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "21:30",
-        "currency": "NZD",
-        "title": "RBNZ Gov Breman Speaks",
-        "title_en": "RBNZ Gov Breman Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "22:30",
-        "currency": "USD",
-        "title": "کمیته بازار آزاد فدرال رزرو (FOMC Meeting Minutes)",
-        "title_en": "FOMC Meeting Minutes",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-19",
     "jalali": "پنجشنبه 28 آبان 1405",
     "events": [
@@ -155,6 +61,56 @@
         "actual": "-",
         "forecast": "198K",
         "previous": "200K"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-20",
+    "jalali": "جمعه 29 آبان 1405",
+    "events": [
+      {
+        "time": "10:30",
+        "currency": "GBP",
+        "title": "خرده‌فروشی (Retail Sales m/m)",
+        "title_en": "Retail Sales m/m",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "0.0%",
+        "previous": "-0.4%"
+      },
+      {
+        "time": "11:45",
+        "currency": "EUR",
+        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
+        "title_en": "ECB President Lagarde Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
+      },
+      {
+        "time": "18:30",
+        "currency": "USD",
+        "title": "Revised UoM Consumer Sentiment",
+        "title_en": "Revised UoM Consumer Sentiment",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "51.7",
+        "previous": "51.0"
+      },
+      {
+        "time": "18:30",
+        "currency": "USD",
+        "title": "Revised UoM Inflation Expectations",
+        "title_en": "Revised UoM Inflation Expectations",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "4.3%"
       }
     ]
   },
