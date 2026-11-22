@@ -1,116 +1,104 @@
 {
-  "updated_at": "2026-11-19T23:10:39+03:30",
+  "updated_at": "2026-11-22T23:10:41+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-19",
-    "jalali": "پنجشنبه 28 آبان 1405",
-    "events": [
-      {
-        "time": "04:00",
-        "currency": "AUD",
-        "title": "Employment Change",
-        "title_en": "Employment Change",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "25.5K",
-        "previous": "-39.3K"
-      },
-      {
-        "time": "04:00",
-        "currency": "AUD",
-        "title": "نرخ بیکاری",
-        "title_en": "Unemployment Rate",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.7%",
-        "previous": "4.7%"
-      },
-      {
-        "time": "17:00",
-        "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "Philly Fed Manufacturing Index",
-        "title_en": "Philly Fed Manufacturing Index",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "20.6",
-        "previous": "20.9"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "نرخ بیکاری (Unemployment Claims)",
-        "title_en": "Unemployment Claims",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "198K",
-        "previous": "200K"
-      }
-    ]
+    "date": "2026-11-22",
+    "jalali": "یکشنبه 1 آذر 1405",
+    "events": []
   },
   "tomorrow": {
-    "date": "2026-11-20",
-    "jalali": "جمعه 29 آبان 1405",
+    "date": "2026-11-23",
+    "jalali": "دوشنبه 2 آذر 1405",
     "events": [
       {
-        "time": "10:30",
-        "currency": "GBP",
-        "title": "خرده‌فروشی (Retail Sales m/m)",
-        "title_en": "Retail Sales m/m",
+        "time": "11:45",
+        "currency": "EUR",
+        "title": "شاخص مدیران خرید (French Flash Manufacturing PMI)",
+        "title_en": "French Flash Manufacturing PMI",
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "0.0%",
-        "previous": "-0.4%"
+        "forecast": "49.8",
+        "previous": "49.3"
       },
       {
         "time": "11:45",
         "currency": "EUR",
-        "title": "بانک مرکزی اروپا (ECB President Lagarde Speaks)",
-        "title_en": "ECB President Lagarde Speaks",
+        "title": "شاخص مدیران خرید (French Flash Services PMI)",
+        "title_en": "French Flash Services PMI",
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "-",
-        "previous": "-"
+        "forecast": "47.4",
+        "previous": "48.4"
       },
       {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "Revised UoM Consumer Sentiment",
-        "title_en": "Revised UoM Consumer Sentiment",
+        "time": "12:00",
+        "currency": "EUR",
+        "title": "شاخص مدیران خرید (German Flash Manufacturing PMI)",
+        "title_en": "German Flash Manufacturing PMI",
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "51.7",
-        "previous": "51.0"
+        "forecast": "54.1",
+        "previous": "54.2"
       },
       {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "Revised UoM Inflation Expectations",
-        "title_en": "Revised UoM Inflation Expectations",
+        "time": "12:00",
+        "currency": "EUR",
+        "title": "شاخص مدیران خرید (German Flash Services PMI)",
+        "title_en": "German Flash Services PMI",
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "-",
-        "previous": "4.3%"
+        "forecast": "52.4",
+        "previous": "51.7"
+      },
+      {
+        "time": "13:00",
+        "currency": "GBP",
+        "title": "شاخص مدیران خرید (Flash Manufacturing PMI)",
+        "title_en": "Flash Manufacturing PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "53.0",
+        "previous": "52.8"
+      },
+      {
+        "time": "13:00",
+        "currency": "GBP",
+        "title": "شاخص مدیران خرید (Flash Services PMI)",
+        "title_en": "Flash Services PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "53.0",
+        "previous": "53.1"
+      },
+      {
+        "time": "18:15",
+        "currency": "USD",
+        "title": "شاخص مدیران خرید (Flash Manufacturing PMI)",
+        "title_en": "Flash Manufacturing PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "54.5",
+        "previous": "56.0"
+      },
+      {
+        "time": "18:15",
+        "currency": "USD",
+        "title": "شاخص مدیران خرید (Flash Services PMI)",
+        "title_en": "Flash Services PMI",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "55.6",
+        "previous": "57.9"
       }
     ]
   },
