@@ -1,14 +1,9 @@
 {
-  "updated_at": "2026-11-22T23:10:41+03:30",
+  "updated_at": "2026-11-23T23:10:47+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-22",
-    "jalali": "یکشنبه 1 آذر 1405",
-    "events": []
-  },
-  "tomorrow": {
     "date": "2026-11-23",
     "jalali": "دوشنبه 2 آذر 1405",
     "events": [
@@ -99,6 +94,34 @@
         "actual": "-",
         "forecast": "55.6",
         "previous": "57.9"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-24",
+    "jalali": "سه‌شنبه 3 آذر 1405",
+    "events": [
+      {
+        "time": "18:30",
+        "currency": "USD",
+        "title": "CB Consumer Confidence",
+        "title_en": "CB Consumer Confidence",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "92.1",
+        "previous": "91.7"
+      },
+      {
+        "time": "20:55",
+        "currency": "CAD",
+        "title": "BOC Gov Macklem Speaks",
+        "title_en": "BOC Gov Macklem Speaks",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
   },
