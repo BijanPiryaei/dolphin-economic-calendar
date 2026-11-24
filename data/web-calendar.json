@@ -1,103 +1,9 @@
 {
-  "updated_at": "2026-11-23T23:10:47+03:30",
+  "updated_at": "2026-11-24T23:10:43+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-23",
-    "jalali": "دوشنبه 2 آذر 1405",
-    "events": [
-      {
-        "time": "11:45",
-        "currency": "EUR",
-        "title": "شاخص مدیران خرید (French Flash Manufacturing PMI)",
-        "title_en": "French Flash Manufacturing PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "49.8",
-        "previous": "49.3"
-      },
-      {
-        "time": "11:45",
-        "currency": "EUR",
-        "title": "شاخص مدیران خرید (French Flash Services PMI)",
-        "title_en": "French Flash Services PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "47.4",
-        "previous": "48.4"
-      },
-      {
-        "time": "12:00",
-        "currency": "EUR",
-        "title": "شاخص مدیران خرید (German Flash Manufacturing PMI)",
-        "title_en": "German Flash Manufacturing PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "54.1",
-        "previous": "54.2"
-      },
-      {
-        "time": "12:00",
-        "currency": "EUR",
-        "title": "شاخص مدیران خرید (German Flash Services PMI)",
-        "title_en": "German Flash Services PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "52.4",
-        "previous": "51.7"
-      },
-      {
-        "time": "13:00",
-        "currency": "GBP",
-        "title": "شاخص مدیران خرید (Flash Manufacturing PMI)",
-        "title_en": "Flash Manufacturing PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "53.0",
-        "previous": "52.8"
-      },
-      {
-        "time": "13:00",
-        "currency": "GBP",
-        "title": "شاخص مدیران خرید (Flash Services PMI)",
-        "title_en": "Flash Services PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "53.0",
-        "previous": "53.1"
-      },
-      {
-        "time": "18:15",
-        "currency": "USD",
-        "title": "شاخص مدیران خرید (Flash Manufacturing PMI)",
-        "title_en": "Flash Manufacturing PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "54.5",
-        "previous": "56.0"
-      },
-      {
-        "time": "18:15",
-        "currency": "USD",
-        "title": "شاخص مدیران خرید (Flash Services PMI)",
-        "title_en": "Flash Services PMI",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "55.6",
-        "previous": "57.9"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-24",
     "jalali": "سه‌شنبه 3 آذر 1405",
     "events": [
@@ -109,7 +15,7 @@
         "importance": 2,
         "importance_fa": "مهم",
         "actual": "-",
-        "forecast": "92.1",
+        "forecast": "92.4",
         "previous": "91.7"
       },
       {
@@ -122,6 +28,78 @@
         "actual": "-",
         "forecast": "-",
         "previous": "-"
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-25",
+    "jalali": "چهارشنبه 4 آذر 1405",
+    "events": [
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "CPI m/m",
+        "title_en": "CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.4%",
+        "previous": "0.8%"
+      },
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "CPI y/y",
+        "title_en": "CPI y/y",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "4.7%",
+        "previous": "4.3%"
+      },
+      {
+        "time": "04:00",
+        "currency": "AUD",
+        "title": "Trimmed Mean CPI m/m",
+        "title_en": "Trimmed Mean CPI m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "Core PCE Price Index m/m",
+        "title_en": "Core PCE Price Index m/m",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "تولید ناخالص داخلی (Prelim GDP q/q)",
+        "title_en": "Prelim GDP q/q",
+        "importance": 3,
+        "importance_fa": "بسیارمهم",
+        "actual": "-",
+        "forecast": "3.5%",
+        "previous": "3.4%"
+      },
+      {
+        "time": "17:00",
+        "currency": "USD",
+        "title": "تولید ناخالص داخلی (Prelim GDP Price Index q/q)",
+        "title_en": "Prelim GDP Price Index q/q",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "2.3%",
+        "previous": "2.3%"
       }
     ]
   },
