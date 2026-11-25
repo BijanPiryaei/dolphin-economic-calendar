@@ -1,37 +1,9 @@
 {
-  "updated_at": "2026-11-24T23:10:43+03:30",
+  "updated_at": "2026-11-25T23:10:48+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-24",
-    "jalali": "سه‌شنبه 3 آذر 1405",
-    "events": [
-      {
-        "time": "18:30",
-        "currency": "USD",
-        "title": "CB Consumer Confidence",
-        "title_en": "CB Consumer Confidence",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "92.4",
-        "previous": "91.7"
-      },
-      {
-        "time": "20:55",
-        "currency": "CAD",
-        "title": "BOC Gov Macklem Speaks",
-        "title_en": "BOC Gov Macklem Speaks",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-25",
     "jalali": "چهارشنبه 4 آذر 1405",
     "events": [
@@ -100,8 +72,24 @@
         "actual": "-",
         "forecast": "2.3%",
         "previous": "2.3%"
+      },
+      {
+        "time": "17:45",
+        "currency": "GBP",
+        "title": "Monetary Policy Report Hearings",
+        "title_en": "Monetary Policy Report Hearings",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "-",
+        "previous": "-"
       }
     ]
+  },
+  "tomorrow": {
+    "date": "2026-11-26",
+    "jalali": "پنجشنبه 5 آذر 1405",
+    "events": []
   },
   "site": "https://dolphintraders.ir",
   "telegram": "https://t.me/DolphinTraders_ir"
