@@ -1,95 +1,29 @@
 {
-  "updated_at": "2026-11-25T23:10:48+03:30",
+  "updated_at": "2026-11-26T23:10:39+03:30",
   "timezone": "Asia/Tehran",
   "source": "Forex Factory public calendar",
   "disclaimer": "توصیه مالی نیست",
   "today": {
-    "date": "2026-11-25",
-    "jalali": "چهارشنبه 4 آذر 1405",
-    "events": [
-      {
-        "time": "04:00",
-        "currency": "AUD",
-        "title": "CPI m/m",
-        "title_en": "CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.4%",
-        "previous": "0.8%"
-      },
-      {
-        "time": "04:00",
-        "currency": "AUD",
-        "title": "CPI y/y",
-        "title_en": "CPI y/y",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "4.7%",
-        "previous": "4.3%"
-      },
-      {
-        "time": "04:00",
-        "currency": "AUD",
-        "title": "Trimmed Mean CPI m/m",
-        "title_en": "Trimmed Mean CPI m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.3%"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "Core PCE Price Index m/m",
-        "title_en": "Core PCE Price Index m/m",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "0.3%",
-        "previous": "0.3%"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "تولید ناخالص داخلی (Prelim GDP q/q)",
-        "title_en": "Prelim GDP q/q",
-        "importance": 3,
-        "importance_fa": "بسیارمهم",
-        "actual": "-",
-        "forecast": "3.5%",
-        "previous": "3.4%"
-      },
-      {
-        "time": "17:00",
-        "currency": "USD",
-        "title": "تولید ناخالص داخلی (Prelim GDP Price Index q/q)",
-        "title_en": "Prelim GDP Price Index q/q",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "2.3%",
-        "previous": "2.3%"
-      },
-      {
-        "time": "17:45",
-        "currency": "GBP",
-        "title": "Monetary Policy Report Hearings",
-        "title_en": "Monetary Policy Report Hearings",
-        "importance": 2,
-        "importance_fa": "مهم",
-        "actual": "-",
-        "forecast": "-",
-        "previous": "-"
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-26",
     "jalali": "پنجشنبه 5 آذر 1405",
     "events": []
+  },
+  "tomorrow": {
+    "date": "2026-11-27",
+    "jalali": "جمعه 6 آذر 1405",
+    "events": [
+      {
+        "time": "03:00",
+        "currency": "JPY",
+        "title": "Tokyo Core CPI y/y",
+        "title_en": "Tokyo Core CPI y/y",
+        "importance": 2,
+        "importance_fa": "مهم",
+        "actual": "-",
+        "forecast": "3.0%",
+        "previous": "2.6%"
+      }
+    ]
   },
   "site": "https://dolphintraders.ir",
   "telegram": "https://t.me/DolphinTraders_ir"
